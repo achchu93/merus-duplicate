@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import tw, { theme, styled, css } from "twin.macro"
 import { Link } from "gatsby"
 import Header from "./header"
+import useMenuWidth from "./../utils/useMenuWidth"
 
 const menuItems = [
 	{ name: "Home", target: "/" },
@@ -13,7 +14,9 @@ const menuItems = [
 ]
 
 const Menu = ({ isMenuOpen, handleMenu }) => {
-	const offset = isMenuOpen ? 0 : 540
+
+	const menuWidth = useMenuWidth();
+	const offset = isMenuOpen ? "0px" : menuWidth ;
 
 	return (
 		<section
@@ -26,11 +29,11 @@ const Menu = ({ isMenuOpen, handleMenu }) => {
 						transform 0.6s
 							${theme`transitionTimingFunction.header-in`} 0s;
 					transform: translate3d(
-						${offset > 0 ? -offset : offset}px,
+						${offset != "0px" ? `-${offset}` : offset},
 						0px,
 						0px
 					);
-					width: 540px;
+					width: ${menuWidth};
 				`,
 				tw`fixed inset-0 z-50 flex items-center overflow-hidden pointer-events-none h-screen bg-home text-primaryGrey`,
 			]}
@@ -40,7 +43,7 @@ const Menu = ({ isMenuOpen, handleMenu }) => {
 					css`
 						transition: transform 0.6s
 							${theme`transitionTimingFunction.header-in`} 0s;
-						transform: translate3d(${offset}px, 0px, 0px);
+						transform: translate3d(${offset}, 0px, 0px);
 						clip: rect(auto, auto, auto, auto);
 					`,
 					tw`w-full h-full fixed inset-0 z-40`,
@@ -67,12 +70,16 @@ const Menu = ({ isMenuOpen, handleMenu }) => {
 									color: inherit;
 								`,
 								css`
-									&:hover{
+									&:hover {
 										h2 {
-											transform: translate3d( 0.5rem, 0, 0 )
+											transform: translate3d(
+												0.5rem,
+												0,
+												0
+											);
 										}
 									}
-								`
+								`,
 							]}
 							to={li.target}
 							activeStyle={{ color: theme`colors.portfolio` }}

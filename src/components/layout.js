@@ -5,12 +5,14 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import tw, { theme, css } from "twin.macro"
 
 import Header from "./header"
 import Menu from "./menu"
+import useMenuWidth from "./../utils/useMenuWidth"
 
 const Layout = ({ children }) => {
 	const data = useStaticQuery(graphql`
@@ -27,6 +29,8 @@ const Layout = ({ children }) => {
 
 	const handleMenuClick = () => setMenuState(!isMenuOpen)
 
+	const menuWidth = useMenuWidth();
+
 	return (
 		<>
 			<Header
@@ -35,14 +39,20 @@ const Layout = ({ children }) => {
 				handleMenu={handleMenuClick}
 			/>
 			<Menu isMenuOpen={isMenuOpen} handleMenu={handleMenuClick} />
-			<div
-				style={{
-					margin: `0 auto`,
-					maxWidth: 960,
-					padding: `0 1.0875rem 1.45rem`,
-				}}
-			>
-				<main>{children}</main>
+			<div css={[tw`overflow-x-hidden`]}>
+				<main
+					css={[
+						tw`min-h-screen bg-primaryGrey ease-header-in z-10`,
+						css`
+							transition: transform 0.725s
+								${theme`transitionTimingFunction.header-in`} 0s;
+							transform: translate3d(${isMenuOpen ? menuWidth : "0px"}, 0px, 0px);
+							box-shadow: rgb(0 0 0 / 10%) 0px 4px 18px;
+						`,
+					]}
+				>
+					{children}
+				</main>
 				<footer
 					style={{
 						marginTop: `2rem`,

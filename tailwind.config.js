@@ -14,6 +14,7 @@ module.exports = {
 			theme: ['"ABC Monument Grotesk"', ...defaultTheme.fontFamily.sans],
 		},
 		backgroundColor: {
+			primaryGrey: "#f2f5f2",
 			home: "#172138",
 			portfolio: "#d95c4a",
 		},
