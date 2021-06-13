@@ -32,6 +32,12 @@ module.exports = {
 					"appearDown 1s cubic-bezier(0.215, 0.61, 0.355, 1) forwards",
 				appearUp:
 					"appearUp 1s cubic-bezier(0.215, 0.61, 0.355, 1) forwards",
+				appear:
+					"1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.25s 1 normal forwards running appear",
+				appearLeftSlight:
+					"1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s 1 normal forwards running appearLeftSlight",
+				appearRightSlight:
+					"1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s 1 normal forwards running appearRightSlight",
 			},
 			keyframes: {
 				appearSpinSlight: {
@@ -47,17 +53,47 @@ module.exports = {
 				appearDown: {
 					"0%": {
 						opacity: "0",
-						transform: "translate3d(0px, -1rem, 0px)",
+						transform: "translate3d(0, -1rem, 0)",
 					},
 					"100%": {
 						opacity: "1",
-						transform: "translate3d(0px, 0px, 0px)",
+						transform: "translate3d(0, 0, 0)",
 					},
 				},
 				appearUp: {
 					"0%": {
 						opacity: "0",
 						transform: "translate3d(0px, 2vw, 0px)",
+					},
+					"100%": {
+						opacity: "1",
+						transform: "translate3d(0px, 0px, 0px)",
+					},
+				},
+				appear: {
+					"0%": {
+						opacity: "0",
+						transform: "translate3d(0px, 1rem, 0px)",
+					},
+					"100%": {
+						opacity: "1",
+						transform: "translate3d(0px, 0px, 0px)",
+					},
+				},
+				appearLeftSlight: {
+					"0%": {
+						opacity: "0",
+						transform: "translate3d(0.5rem, 0px, 0px)",
+					},
+					"100%": {
+						opacity: "1",
+						transform: "translate3d(0px, 0px, 0px)",
+					},
+				},
+				appearRightSlight: {
+					"0%": {
+						opacity: "0",
+						transform: "translate3d(-0.5rem, 0px, 0px)",
 					},
 					"100%": {
 						opacity: "1",

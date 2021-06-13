@@ -1,8 +1,18 @@
-import React from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
 import tw, { theme, css } from "twin.macro"
+import { useLocation } from "@reach/router";
+import { Link } from "gatsby"
+import useMenuWidth from "./../utils/useMenuWidth"
 
 const Header = ({ siteTitle, isMenuOpen, bgColor, color, handleMenu }) => {
+
+	const path = useLocation().pathname
+	const menuWidth = useMenuWidth()
+
+	const [headingHover, setheadingHover] = useState(false)
+	const [title, subTitle] = siteTitle.split(" ")
+	const pageName = path.replace('/', '')
 
 	return (
 		<header
@@ -76,6 +86,158 @@ const Header = ({ siteTitle, isMenuOpen, bgColor, color, handleMenu }) => {
 							</div>
 						</button>
 					</div>
+					{path !== "/" && (
+						<div
+							css={[
+								tw`absolute w-screen h-8 top-0 pointer-events-none -left-10 lg:h-10`,
+							]}
+						>
+							<div
+								css={[
+									tw`grid grid-cols-12 gap-x-1 relative px-2 h-full items-center lg:gap-x-4 lg:px-10`,
+								]}
+							>
+								<div
+									css={[
+										tw`col-start-4 col-span-7 relative flex items-center justify-between`,
+									]}
+								>
+									<Link
+										to="/"
+										css={[
+											tw`flex items-start relative pointer-events-auto transition-transform duration-700 ease-header-in transform-gpu translate-x-0 translate-y-0`,
+											isMenuOpen &&
+												css`
+													transform: translate3d(
+														${menuWidth},
+														0px,
+														0px
+													);
+												`,
+										]}
+										onMouseEnter={() =>
+											setheadingHover(true)
+										}
+										onMouseLeave={() =>
+											setheadingHover(false)
+										}
+									>
+										<div
+											css={[
+												css`
+													backface-visibility: hidden;
+													transform: translate3d(
+														0.5rem,
+														0px,
+														0px
+													);
+												`,
+												tw`opacity-0 animate-appearLeftSlight`,
+											]}
+										>
+											<h2
+												css={[
+													tw`font-theme text-p-1 leading-p-1`,
+												]}
+											>
+												{title}
+											</h2>
+										</div>
+										<div
+											css={[
+												css`
+													backface-visibility: hidden;
+													transform: translate3d(
+														-0.5rem,
+														0px,
+														0px
+													);
+												`,
+												tw`opacity-0 animate-appearRightSlight w-64 relative`,
+											]}
+										>
+											{headingHover && (
+												<div
+													css={[
+														css`
+															backface-visibility: hidden;
+															transform: translate3d(
+																0px,
+																-1rem,
+																0px
+															);
+															animation: 0.3s
+																cubic-bezier(
+																	0.215,
+																	0.61,
+																	0.355,
+																	1
+																)
+																0s 1 normal
+																forwards running
+																appearDown;
+														`,
+														tw`opacity-0 pointer-events-none`,
+														headingHover &&
+															tw`text-home`,
+													]}
+												>
+													<h2
+														css={[
+															tw`font-theme text-p-1 font-light leading-p-1`,
+															css`
+																letter-spacing: 0.01em;
+															`,
+														]}
+													>
+														{subTitle}
+													</h2>
+												</div>
+											)}
+											{!headingHover && (
+												<div
+													css={[
+														css`
+															backface-visibility: hidden;
+															transform: translate3d(
+																0px,
+																-1rem,
+																0px
+															);
+															animation: 0.3s
+																cubic-bezier(
+																	0.215,
+																	0.61,
+																	0.355,
+																	1
+																)
+																0s 1 normal
+																forwards running
+																appearDown;
+														`,
+														tw`opacity-0 pointer-events-none`,
+														headingHover &&
+															tw`text-home`,
+													]}
+												>
+													<h2
+														css={[
+															tw`font-theme text-p-1 font-light leading-p-1 capitalize`,
+															css`
+																letter-spacing: 0.01em;
+															`,
+														]}
+													>
+														{pageName}
+													</h2>
+												</div>
+											)}
+										</div>
+									</Link>
+								</div>
+							</div>
+						</div>
+					)}
 				</div>
 			</nav>
 		</header>
