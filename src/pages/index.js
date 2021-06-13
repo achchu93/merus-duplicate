@@ -24,7 +24,7 @@ const IndexPage = () => (
 						tw`opacity-0 col-span-6 lg:col-span-3 col-start-7 lg:col-start-9 flex items-end text-secondary animate-appearDown`,
 					]}
 				>
-					<p css={[tw`font-theme text-p-1 font-light leading-p-1`]}>
+					<p css={[tw`font-theme text-p-1 font-light leading-p-1`, css`letter-spacing: 0.01em;`]}>
 						We empower ambitious teams building tomorrow’s
 						industry-defining platforms
 					</p>

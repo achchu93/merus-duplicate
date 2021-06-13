@@ -15,10 +15,15 @@ module.exports = {
 			theme: ['"ABC Monument Grotesk"', ...defaultTheme.fontFamily.sans],
 		},
 		backgroundColor: {
+			transparent: "transparent",
 			primaryGrey: "#f2f5f2",
 			home: "#172138",
 			portfolio: "#d95c4a",
+			footer: "#d9d9d9",
 		},
+		borderColor: theme => ({
+			secondary: "#707385",
+		}),
 		extend: {
 			animation: {
 				appearSpinSlight:

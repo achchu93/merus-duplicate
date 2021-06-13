@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import tw, { theme, css } from "twin.macro"
 
 import Header from "./header"
+import Footer from "./footer"
 import Menu from "./menu"
 import useMenuWidth from "./../utils/useMenuWidth"
 
@@ -52,16 +53,8 @@ const Layout = ({ children }) => {
 					]}
 				>
 					{children}
+					<Footer />
 				</main>
-				<footer
-					style={{
-						marginTop: `2rem`,
-					}}
-				>
-					© {new Date().getFullYear()}, Built with
-					{` `}
-					<a href="https://www.gatsbyjs.com">Gatsby</a>
-				</footer>
 			</div>
 		</>
 	)
