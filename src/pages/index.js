@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
-	<Layout>
+	<Layout styles={[tw`min-h-screen`]}>
 		<Seo title="Home" />
 		<section css={[tw`h-screen`]}>
 			<div

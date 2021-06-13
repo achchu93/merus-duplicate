@@ -15,7 +15,7 @@ import Footer from "./footer"
 import Menu from "./menu"
 import useMenuWidth from "./../utils/useMenuWidth"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, styles }) => {
 	const data = useStaticQuery(graphql`
 		query SiteTitleQuery {
 			site {
@@ -43,13 +43,14 @@ const Layout = ({ children }) => {
 			<div css={[tw`overflow-x-hidden`]}>
 				<main
 					css={[
-						tw`min-h-screen bg-primaryGrey ease-header-in z-10`,
+						tw`bg-primaryGrey ease-header-in z-10`,
 						css`
 							transition: transform 0.725s
 								${theme`transitionTimingFunction.header-in`} 0s;
 							transform: translate3d(${isMenuOpen ? menuWidth : "0px"}, 0px, 0px);
 							box-shadow: rgb(0 0 0 / 10%) 0px 4px 18px;
 						`,
+						...styles
 					]}
 				>
 					{children}
@@ -61,7 +62,12 @@ const Layout = ({ children }) => {
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+	children: PropTypes.node.isRequired,
+	styles: PropTypes.array
+}
+
+Layout.defaultProps = {
+	styles: []
 }
 
 export default Layout
