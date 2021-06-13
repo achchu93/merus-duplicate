@@ -7,6 +7,7 @@ module.exports = {
 	theme: {
 		colors: {
 			primaryGrey: "#f2f5f2",
+			secondary: "#707385",
 			home: "#172138",
 			portfolio: "#d95c4a",
 		},
@@ -22,6 +23,10 @@ module.exports = {
 			animation: {
 				appearSpinSlight:
 					"appearSpinSlight 1s cubic-bezier(0.215, 0.61, 0.355, 1) forwards",
+				appearDown:
+					"appearDown 1s cubic-bezier(0.215, 0.61, 0.355, 1) forwards",
+				appearUp:
+					"appearUp 1s cubic-bezier(0.215, 0.61, 0.355, 1) forwards",
 			},
 			keyframes: {
 				appearSpinSlight: {
@@ -34,9 +39,35 @@ module.exports = {
 						transform: "rotate(0)",
 					},
 				},
+				appearDown: {
+					"0%": {
+						opacity: "0",
+						transform: "translate3d(0px, -1rem, 0px)",
+					},
+					"100%": {
+						opacity: "1",
+						transform: "translate3d(0px, 0px, 0px)",
+					},
+				},
+				appearUp: {
+					"0%": {
+						opacity: "0",
+						transform: "translate3d(0px, 2vw, 0px)",
+					},
+					"100%": {
+						opacity: "1",
+						transform: "translate3d(0px, 0px, 0px)",
+					},
+				},
 			},
 			transitionTimingFunction: {
 				"header-in": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+			},
+			fontSize: {
+				"p-1": "22px",
+			},
+			lineHeight: {
+				"p-1": "24px",
 			},
 		},
 	},
