@@ -1,9 +1,9 @@
-import React, { useContext } from 'react'
-import PropTypes from "prop-types"
+import React, { useContext, useEffect, useState } from 'react'
 import tw, { theme, styled, css } from "twin.macro"
 import { Link } from "gatsby"
 import Header from "./header"
 import { AppContext } from '../context/app-context'
+import { string } from 'prop-types'
 
 const menuItems = [
 	{ name: "Home", target: "/" },
@@ -15,8 +15,54 @@ const menuItems = [
 
 const Menu = () => {
 
-	const { isMenuOpen, getMenuWidth, handleMenuState } = useContext(AppContext)
-	const offset = isMenuOpen ? "0px" : getMenuWidth() ;
+	const { isMenuOpen, getMenuWidth, handleMenuState, pathname } = useContext(AppContext)
+	const offset = isMenuOpen ? "0px" : getMenuWidth()
+	const [menuTransition, setMenuTransition] = useState(false)
+	const [colourStyle, setColourStyle] = useState({})
+
+	useEffect(() => {
+		if( menuTransition ){
+			setTimeout(() => {
+				handleMenuState()
+				setMenuTransition(false)
+			}, 250)
+		}
+	}, [menuTransition])
+
+	useEffect(() => {
+		let styles = {
+			background: theme`backgroundColor.home`,
+			color: theme`colors.primaryGrey`,
+			colorActive: theme`colors.portfolio`,
+		}
+
+		if (!pathname || pathname.indexOf("/") < 0) {
+			setColourStyle(styles)
+			return
+		}
+
+		const pathId = pathname.replace("/", "").toLowerCase()
+
+		switch (pathId) {
+			case "team":
+				styles.background = theme`backgroundColor.team`
+				break
+			case "portfolio":
+				styles.background = theme`backgroundColor.portfolio`
+				styles.colorActive = theme`colors.home`
+				break
+			case "perspectives":
+				styles.background = theme`backgroundColor.perspectives`
+				break
+			case "mcx":
+				styles.background = theme`backgroundColor.mcx`
+				break
+			default:
+				styles.background = theme`backgroundColor.home`
+				break;
+		}
+		setColourStyle(styles)
+	}, [pathname])
 
 	return (
 		<section
@@ -27,15 +73,17 @@ const Menu = () => {
 						background 0.25s
 							${theme`transitionTimingFunction.header-in`} 0s,
 						transform 0.6s
-							${theme`transitionTimingFunction.header-in`} 0s;
+							${theme`transitionTimingFunction.header-in`}
+							${!menuTransition ? `0s` : `0.2s`};
 					transform: translate3d(
 						${offset != "0px" ? `-${offset}` : offset},
 						0px,
 						0px
 					);
 					width: ${getMenuWidth()};
+					background-color: ${colourStyle.background};
 				`,
-				tw`fixed inset-0 z-50 flex items-center overflow-hidden pointer-events-none h-screen bg-home text-primaryGrey`,
+				tw`fixed inset-0 z-50 flex items-center overflow-hidden pointer-events-none h-screen text-primaryGrey`,
 			]}
 		>
 			<div
@@ -78,7 +126,7 @@ const Menu = () => {
 							]}
 							to={li.target}
 							activeStyle={{ color: theme`colors.portfolio` }}
-							onClick={handleMenuState}
+							onClick={() => setMenuTransition(true)}
 						>
 							<h2
 								css={[

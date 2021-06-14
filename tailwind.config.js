@@ -1,28 +1,33 @@
 
 const defaultTheme = require("tailwindcss/defaultTheme")
 
+const siteColors = {
+	home: "#172138",
+	team: "#57459c",
+	portfolio: "#d95c4a",
+	perspectives: "#1f0559",
+	mcx: "#403680",
+	primaryGrey: "#f2f5f2",
+	secondary: "#707385",
+	transparent: "transparent",
+}
+
 module.exports = {
 	purge: ["./src/**/*.{js,jsx,ts,tsx}"],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		colors: {
-			primaryGrey: "#f2f5f2",
-			secondary: "#707385",
-			home: "#172138",
-			portfolio: "#d95c4a",
+			...siteColors,
 		},
 		fontFamily: {
 			theme: ['"ABC Monument Grotesk"', ...defaultTheme.fontFamily.sans],
 		},
 		backgroundColor: {
-			transparent: "transparent",
-			primaryGrey: "#f2f5f2",
-			home: "#172138",
-			portfolio: "#d95c4a",
-			footer: "#d9d9d9",
+			...siteColors,
+			footer : "#d9d9d9",
 		},
 		borderColor: theme => ({
-			secondary: "#707385",
+			...siteColors,
 		}),
 		extend: {
 			animation: {
