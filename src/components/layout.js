@@ -14,7 +14,7 @@ import Footer from "./footer"
 
 const Layout = ({ children, styles }) => {
 
-	const { isMenuOpen, menuWidth } = useContext(AppContext)
+	const { isMenuOpen, getMenuWidth } = useContext(AppContext)
 
 	return (
 		<div css={[tw`overflow-x-hidden`]}>
@@ -24,7 +24,7 @@ const Layout = ({ children, styles }) => {
 					css`
 						transition: transform 0.725s
 							${theme`transitionTimingFunction.header-in`} 0s;
-						transform: translate3d(${isMenuOpen ? menuWidth : "0px"}, 0px, 0px);
+						transform: translate3d(${isMenuOpen ? getMenuWidth() : "0px"}, 0px, 0px);
 						box-shadow: rgb(0 0 0 / 10%) 0px 4px 18px;
 					`,
 					...styles
