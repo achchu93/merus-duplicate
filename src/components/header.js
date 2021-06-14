@@ -17,12 +17,11 @@ const Header = ({ isClipped }) => {
 	`)
 
 	const siteTitle = data.site.siteMetadata?.title || `Title`
-	const path = "/"
-	const { isMenuOpen, menuWidth, handleMenuState } = useContext(AppContext)
+	const { isMenuOpen, getMenuWidth, handleMenuState, pathname } = useContext(AppContext)
 
 	const [headingHover, setheadingHover] = useState(false)
 	const [title, subTitle] = siteTitle.split(" ")
-	const pageName = path.replace("/", "")
+	const pageName = pathname.replace("/", "")
 
 	const bgColor = !isClipped ? theme`backgroundColor.primaryGrey` : theme`backgroundColor.transparent`
 	const color = !isClipped ? theme`colors.home` : "#fff"
@@ -99,7 +98,7 @@ const Header = ({ isClipped }) => {
 							</div>
 						</button>
 					</div>
-					{path !== "/" && (
+					{pathname !== "/" && (
 						<div
 							css={[
 								tw`absolute w-screen h-8 top-0 pointer-events-none -left-10 lg:h-10`,
@@ -122,7 +121,7 @@ const Header = ({ isClipped }) => {
 											isMenuOpen &&
 												css`
 													transform: translate3d(
-														${menuWidth},
+														${getMenuWidth()},
 														0px,
 														0px
 													);

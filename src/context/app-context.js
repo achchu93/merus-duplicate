@@ -1,6 +1,7 @@
 import React, { createContext, useEffect, useState } from "react"
 import PropTypes from "prop-types"
 import { theme } from "twin.macro"
+import { globalHistory } from "@reach/router"
 
 const MENU_WIDTH = `540px`
 const MENU_WIDTH_XS = `85vw`
@@ -11,6 +12,17 @@ const AppProvider = ({children}) => {
 
 	const [isMenuOpen, setMenuState] = useState(false)
 	const [screen, setScreen] = useState(null)
+	const [pathname, setPathname] = useState(null)
+
+	useEffect(() => {
+		if (typeof window !== `undefined` && window?.location?.pathname) {
+			setPathname(window.location.pathname)
+		}
+
+		return globalHistory.listen(({ location }) => {
+			setPathname(location.pathname)
+		})
+	})
 
 
 	const getMenuWidth = () => {
@@ -56,6 +68,7 @@ const AppProvider = ({children}) => {
 				handleMenuState,
 				screen,
 				getMenuWidth,
+				pathname
 			}}
 		>
 			{children}
