@@ -1,18 +1,31 @@
-import React, { useState } from "react"
+import React, { useState, useContext } from "react"
 import PropTypes from "prop-types"
 import tw, { theme, css } from "twin.macro"
-import { useLocation } from "@reach/router";
-import { Link } from "gatsby"
-import useMenuWidth from "./../utils/useMenuWidth"
+import { Link, useStaticQuery, graphql } from "gatsby"
 
-const Header = ({ siteTitle, isMenuOpen, bgColor, color, handleMenu }) => {
+import { AppContext } from "../context/app-context"
 
-	const path = useLocation().pathname
-	const menuWidth = useMenuWidth()
+const Header = ({ isClipped }) => {
+	const data = useStaticQuery(graphql`
+		query SiteTitleQuery {
+			site {
+				siteMetadata {
+					title
+				}
+			}
+		}
+	`)
+
+	const siteTitle = data.site.siteMetadata?.title || `Title`
+	const path = "/"
+	const { isMenuOpen, menuWidth, handleMenuState } = useContext(AppContext)
 
 	const [headingHover, setheadingHover] = useState(false)
 	const [title, subTitle] = siteTitle.split(" ")
-	const pageName = path.replace('/', '')
+	const pageName = path.replace("/", "")
+
+	const bgColor = !isClipped ? theme`backgroundColor.primaryGrey` : theme`backgroundColor.transparent`
+	const color = !isClipped ? theme`colors.home` : "#fff"
 
 	return (
 		<header
@@ -41,7 +54,7 @@ const Header = ({ siteTitle, isMenuOpen, bgColor, color, handleMenu }) => {
 								`,
 								tw`lg:w-10 lg:h-10 animate-appearSpinSlight relative block w-8 h-8 focus:outline-none`,
 							]}
-							onClick={() => handleMenu()}
+							onClick={handleMenuState}
 						>
 							<div
 								css={[
@@ -245,19 +258,11 @@ const Header = ({ siteTitle, isMenuOpen, bgColor, color, handleMenu }) => {
 }
 
 Header.propTypes = {
-	siteTitle: PropTypes.string,
-	isMenuOpen: PropTypes.bool,
-	bgColor: PropTypes.string,
-	color: PropTypes.string,
-	handleMenu: PropTypes.func,
+	isClipped: PropTypes.bool
 }
 
 Header.defaultProps = {
-	siteTitle: ``,
-	isMenuOpen: false,
-	bgColor: theme`colors.primaryGrey`,
-	color: theme`colors.home`,
-	handleMenu: () => {},
+	isClipped: false
 }
 
 export default Header

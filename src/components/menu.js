@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import PropTypes from "prop-types"
 import tw, { theme, styled, css } from "twin.macro"
 import { Link } from "gatsby"
 import Header from "./header"
-import useMenuWidth from "./../utils/useMenuWidth"
+import { AppContext } from '../context/app-context'
 
 const menuItems = [
 	{ name: "Home", target: "/" },
@@ -13,10 +13,10 @@ const menuItems = [
 	{ name: "MCX", target: "/mcx" },
 ]
 
-const Menu = ({ isMenuOpen, handleMenu }) => {
+const Menu = () => {
 
-	const menuWidth = useMenuWidth();
-	const offset = isMenuOpen ? "0px" : menuWidth ;
+	const { isMenuOpen, getMenuWidth, handleMenuState } = useContext(AppContext)
+	const offset = isMenuOpen ? "0px" : getMenuWidth() ;
 
 	return (
 		<section
@@ -33,7 +33,7 @@ const Menu = ({ isMenuOpen, handleMenu }) => {
 						0px,
 						0px
 					);
-					width: ${menuWidth};
+					width: ${getMenuWidth()};
 				`,
 				tw`fixed inset-0 z-50 flex items-center overflow-hidden pointer-events-none h-screen bg-home text-primaryGrey`,
 			]}
@@ -49,12 +49,7 @@ const Menu = ({ isMenuOpen, handleMenu }) => {
 					tw`w-full h-full fixed inset-0 z-40`,
 				]}
 			>
-				<Header
-					isMenuOpen={isMenuOpen}
-					bgColor={theme`backgroundColor.home`}
-					color={theme`colors.primaryGrey`}
-					handleMenu={handleMenu}
-				/>
+				<Header isClipped={true} />
 			</div>
 			<ul
 				css={[
@@ -83,6 +78,7 @@ const Menu = ({ isMenuOpen, handleMenu }) => {
 							]}
 							to={li.target}
 							activeStyle={{ color: theme`colors.portfolio` }}
+							onClick={handleMenuState}
 						>
 							<h2
 								css={[
@@ -102,16 +98,6 @@ const Menu = ({ isMenuOpen, handleMenu }) => {
 			</ul>
 		</section>
 	)
-}
-
-Menu.propTypes = {
-	isMenuOpen: PropTypes.bool,
-	handleMenu: PropTypes.func,
-}
-
-Menu.defaultProps = {
-	isMenuOpen: false,
-	handleMenu: () => {},
 }
 
 export default Menu
