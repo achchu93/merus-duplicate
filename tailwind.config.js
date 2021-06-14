@@ -10,6 +10,7 @@ const siteColors = {
 	primaryGrey: "#f2f5f2",
 	secondary: "#707385",
 	transparent: "transparent",
+	footer: "#d9d9d9",
 }
 
 module.exports = {
@@ -24,7 +25,6 @@ module.exports = {
 		},
 		backgroundColor: {
 			...siteColors,
-			footer : "#d9d9d9",
 		},
 		borderColor: theme => ({
 			...siteColors,
@@ -42,7 +42,7 @@ module.exports = {
 				appearLeftSlight:
 					"1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s 1 normal forwards running appearLeftSlight",
 				appearRightSlight:
-					"1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s 1 normal forwards running appearRightSlight",
+					"1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s 1 normal forwards running appearRightSlight"
 			},
 			keyframes: {
 				appearSpinSlight: {
@@ -103,6 +103,14 @@ module.exports = {
 					"100%": {
 						opacity: "1",
 						transform: "translate3d(0px, 0px, 0px)",
+					},
+				},
+				disappear: {
+					"0%": {
+						opacity: "1",
+					},
+					"100%": {
+						opacity: "0",
 					},
 				},
 			},
