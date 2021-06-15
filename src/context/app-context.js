@@ -26,20 +26,22 @@ const AppProvider = ({children}) => {
 
 
 	const getMenuWidth = () => {
-		return ["xl", "lg", "md"].includes(screen) ? MENU_WIDTH : MENU_WIDTH_XS
+		return ["xl", "lg"].includes(screen) ? MENU_WIDTH : MENU_WIDTH_XS
 	}
 
 	const handleResize = () => {
+
+		let detectedScreen = "xs"
+
 		const sizes = theme`screens`
 		const screenNames = Object.keys(sizes)
 		Object.values(sizes).forEach((_size, i) => {
-			if (i < 1) {
-				return
-			}
 			if (window.matchMedia(`(min-width: ${_size})`).matches) {
-				setScreen(screenNames[i - 1])
+				detectedScreen = screenNames[i]
 			}
 		})
+
+		setScreen(detectedScreen)
 	}
 
 	const handleMenuState = () => {

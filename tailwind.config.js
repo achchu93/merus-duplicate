@@ -42,7 +42,7 @@ module.exports = {
 				appearLeftSlight:
 					"1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s 1 normal forwards running appearLeftSlight",
 				appearRightSlight:
-					"1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s 1 normal forwards running appearRightSlight"
+					"1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s 1 normal forwards running appearRightSlight",
 			},
 			keyframes: {
 				appearSpinSlight: {
@@ -113,16 +113,37 @@ module.exports = {
 						opacity: "0",
 					},
 				},
+				appearRight: {
+					"0%": {
+						opacity: "0",
+						transform: "translate3d(-1rem, 0, 0)",
+					},
+					"100%": {
+						opacity: "1",
+						transform: "translate3d(0, 0, 0)",
+					},
+				},
 			},
 			transitionTimingFunction: {
 				"header-in": "cubic-bezier(0.215, 0.61, 0.355, 1)",
 			},
 			fontSize: {
+				"h-1": "56px",
+				"h-2": "34px",
 				"p-1": "22px",
+				"p-2": "16px",
+				"p-3": "12px",
 			},
 			lineHeight: {
+				"h-1": "56px",
+				"h-2": "34px",
 				"p-1": "24px",
+				"p-2": "22px",
+				"p-3": "14px",
 			},
+			screens: {
+				"xl" : "1441px"
+			}
 		},
 	},
 	variants: {
