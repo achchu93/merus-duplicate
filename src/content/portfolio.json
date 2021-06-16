@@ -1,0 +1,989 @@
+{
+	"sanityPortfolio": {
+		"title": "Portfolio",
+		"intro": "We are not interested in the simple. We gravitate towards the complex. We back teams that are tackling the most challenging problems facing global industries.",
+		"body": "Our founding teams possess unique industry and customer insights, an unwavering commitment to product innovation, and a relentless focus on execution. Company building is a multi-year journey and we welcome the challenge.",
+		"seoDescription": null,
+		"seoKeywords": [],
+		"partners": [
+			{
+				"title": "AiSight",
+				"tagline": "AI for Manufacturing Operations",
+				"link": "https://aisight.de/en",
+				"status": null,
+				"backgroundColor": "strong-amber",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAxUlEQVQoz63RvQrCQAzA8WvR4ge14CAiuIhuLn4UB3HQSRycXFTEwcEHEPFNHHzYnv9ACikdXDz4Nbm2F9LUOV3ee2dzu/+1Cu/aw1mWVcg7GGKEHhLuNwW5qKGOmHsSg0IdufAgL94i3xFfeOKENZZYaUx5JyUuMCCPSgXzDoltXPHBGw+ctfAFRxywx4Zi8hXVQkHpzhRsaBd33LDFHBPMMMWYMzKSvo4j1HGVO5SHiNl3VaIziwyZc6gC04z72zL/wH0BGGonkGJdAAsAAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/9747b7ada340c2f076712479514fc4453e42acd7-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/9747b7ada340c2f076712479514fc4453e42acd7-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/9747b7ada340c2f076712479514fc4453e42acd7-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/9747b7ada340c2f076712479514fc4453e42acd7-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Alice Technologies",
+				"tagline": "AI-Driven Dynamic Construction Simulation ",
+				"link": "https://www.alicetechnologies.com/home",
+				"status": null,
+				"backgroundColor": "light-grey",
+				"fontColor": "dark-purple",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAzklEQVQoz33SawuCMBQG4EkZfQgKUmd2mavoQxDd27T+/+/qPetMJ0XCA0e3825OhSytKLaVkAo04N7V8Oty407VoGupapFp204KGvowgiHEMIGp1HbMdQoScvccc6gvp0Uo0K/IYRE37WDBzRd4YvIJzqgN3KGGIy3eBJbfgbSjOYfsYQVXeAVBD7hBBQcfKP8EZrAGBQnvcsYLkSKQ+FfuBqrOKw/4/PwZ9vhcYx7zeMxE1Jtt2o2JVJnfX1Sb4KtakdNfoLkOuDPUn/oN4Gk4nxyxemIAAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/2a49ce892c2408d99751696c3b2302031bc5896e-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/2a49ce892c2408d99751696c3b2302031bc5896e-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/2a49ce892c2408d99751696c3b2302031bc5896e-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/2a49ce892c2408d99751696c3b2302031bc5896e-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "AllClear ID",
+				"tagline": "Enterprise Data Breach Solutions",
+				"link": "https://www.allclearid.com/",
+				"status": "Acquired",
+				"backgroundColor": "grey",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAzElEQVQoz5WQywrCQAxFxwpaaxF1UQoqvlAEn+DKrRtF/P+v6Uw9qZmh3WnhkJk09yYTU5al8Z9zznBv/UikMeirs0+oWUTsQiJY6/qQQqJ5IZY8MZUztEUbDL0ZSMcOcWCtzYvCruAIF9jDFtawgDlMMR6LqQ5iGk+VTvyQ7iOKl3CFOzzgBW94wg0OYk5tJi9BF6asxvS7I+qELmPKGaIN7NTgDCedckJNDkNZg2qbO1TjSE1jvy+lh7iinpPa+nODYd30X7yZc9/7B9J2fZNLSoSCAAAAAElFTkSuQmCC",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/7c7d42c91eb64aa054655315334945c85fdb05cf-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/7c7d42c91eb64aa054655315334945c85fdb05cf-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/7c7d42c91eb64aa054655315334945c85fdb05cf-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/7c7d42c91eb64aa054655315334945c85fdb05cf-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Alucid Technologies",
+				"tagline": "3D Video for Augmented Reality",
+				"link": null,
+				"status": "Acquired",
+				"backgroundColor": "blue-black",
+				"fontColor": "off-white",
+				"logo": null
+			},
+			{
+				"title": "Amplitude",
+				"tagline": "Modern Product Analytics",
+				"link": "https://amplitude.com/",
+				"status": null,
+				"backgroundColor": "dark-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwklEQVQoz6XQvQrCMBDA8dSPVnEQRBBU/AJBUFBsBxenCuqgjk66+QA+gg/h7pM2/k8SwZBOBn7c5ZJekirF0FqrvCFrllvz5e5CFS00EbqbsywrIMhr/JMQI8S44Yol+uigjR7GGJl5FwM0UPz24kTbsI4zXnjigi027NkRDzhhj5SaxCMW8jLp8ellb8hEnpviQX4nrjHFDAlW5mOZz80LYnPLyHfDgFyuP8EQNZRQRsUcGJqaxIianfv/4z/D9ngDp5stE4CPntwAAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/e6c9823678079085f871cdf83a52a21bf58efbc0-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/e6c9823678079085f871cdf83a52a21bf58efbc0-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/e6c9823678079085f871cdf83a52a21bf58efbc0-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/e6c9823678079085f871cdf83a52a21bf58efbc0-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Apptimize",
+				"tagline": "Mobile App Optimization",
+				"link": "https://apptimize.com/",
+				"status": "Acquired",
+				"backgroundColor": "medium-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVQoz5WRywrCMBBFExUXrbQ+FlIV6wPcC64F/8ClCz+h/79MPGMnJa0VNHB608nkJjMxhuG9fxOPvthPI2xSgzFkkIDVmO1gIj5iseEI9s65G3qGHFKYwQKmeliu86ATGIoPe039qQ1l8xUqYg/0BCvmO4H5Ggoo+T+gW2UplTXVRjdMSLygT7jDMbpJpgem5EhsrtrcsM9wIAkkluhGDWwo5Uvvuj01rZdsLfz54qF1LxKCPG7y0IN2AAAAAElFTkSuQmCC",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/dd6952d4e2381b57ab793d8bbe9651043ab836f6-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/dd6952d4e2381b57ab793d8bbe9651043ab836f6-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/dd6952d4e2381b57ab793d8bbe9651043ab836f6-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/dd6952d4e2381b57ab793d8bbe9651043ab836f6-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Arch",
+				"tagline": "Real-Time Machine Data Analytics",
+				"link": "https://archsys.io/",
+				"status": null,
+				"backgroundColor": "light-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAo0lEQVQoz53RzQqCQBSG4TEDQ7GwVm1aBLmxDESoXYugaNXORdD938WM78CZOFAYdeDhDOp8zo8xUs45o8ci0s9/rjBZggqskCMWCaZIMdI//ximAidorbV3+h5rbFDhhCPvFur7r4Fz3PBk4oV+ln7FAx1Kv+rBQBU8wxYNauykNwQf/Oqx1Nt+Kz58BTIO55XI9kPP5Pz8eKznDF7KPxcZqgetfOm+OJUpqgAAAABJRU5ErkJggg==",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/670ac66fe64eea896be09f578bbbfd85732555a9-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/670ac66fe64eea896be09f578bbbfd85732555a9-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/670ac66fe64eea896be09f578bbbfd85732555a9-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/670ac66fe64eea896be09f578bbbfd85732555a9-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Aromyx",
+				"tagline": "Digitizing Human Perception",
+				"link": "https://www.aromyx.com/",
+				"status": null,
+				"backgroundColor": "strong-amber",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAzElEQVQoz42RyQrCMBCGI27VBlTwJh4EQQQPKuIKLuhR8eRNBBd8/ydo/AanJS6IA1//SdP+mZkYQzjnTByS++t/I/knTtQoDyUoQwEC1aISRlEUah4oGd/DN0xDDYYwgg4MMFiic1jAGjaaT2Uf6mIqHnyrj6ehnNSEHexhxd4BvcMJznDj3RW9wJF8i7Yhl1ToGabIq2hfq2yx7qEzrXiiSD6GLjSgIt29tOwhbcuMrM5T5mcxtvo+RmaYlSL8S/y4mG8hHbwd+vOWH782O77moLD8AAAAAElFTkSuQmCC",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/68aeba07779fb4f5783c76a33fcc7a811245e8f9-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/68aeba07779fb4f5783c76a33fcc7a811245e8f9-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/68aeba07779fb4f5783c76a33fcc7a811245e8f9-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/68aeba07779fb4f5783c76a33fcc7a811245e8f9-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Authentic8",
+				"tagline": "Web Isolation Platform ",
+				"link": "https://www.authentic8.com/",
+				"status": null,
+				"backgroundColor": "light-grey",
+				"fontColor": "dark-purple",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAp0lEQVQoz6XRuQoCMRSF4Tg6URBbE8QlU6goaGGh49Koha3v/zT+gTPOgqBg4ONm45DFGJoLufm3uUwZRVisaKMjqRR9i67YxnoZWgmMi1NssMC8UuPcFmussNRaHM/Q+xTYxwFPXLGXCx6446g9Oc64YYfB+7a+fsKxTpDBY4gRAiZwmvMaB/VtGajHjJXwRO8Ya0vvatRvjpPqvtrn+h9/+WTSr3te22UwHgWMM6YAAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/eb1ff8813f111a89941642aaaac7c783651629f9-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/eb1ff8813f111a89941642aaaac7c783651629f9-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/eb1ff8813f111a89941642aaaac7c783651629f9-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/eb1ff8813f111a89941642aaaac7c783651629f9-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Censia",
+				"tagline": "Enabling Intelligent Talent Discovery",
+				"link": "https://www.censia.com/",
+				"status": null,
+				"backgroundColor": "grey",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAx0lEQVQoz6XRUQvBUBTA8cso20iSkjxRakWSBzEPUvKCZx48kE+gfAD5FHzYzf/o3NoSKad+O2d3u2d39xpDxHFsbEiNjIiiyPwSdv4ry8VOpM6ijhGGqMKFh5w+Fw7yWqea2hXZuoIVH7jhiiX3PQyou+SAHJCl7qMF/22FiYEGTrgz8YED9Rxr7NQWexyxQVO251PDEma44EzDkNzR359igjHj8s5CatS+rVAOo6xN2ijqXrmqoDya+rq3Tqph4kDMP2HnPwHvVDRXU3SN2QAAAABJRU5ErkJggg==",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/3b1d024f783818bb514ae538141db8cd358da099-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/3b1d024f783818bb514ae538141db8cd358da099-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/3b1d024f783818bb514ae538141db8cd358da099-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/3b1d024f783818bb514ae538141db8cd358da099-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Chai Labs",
+				"tagline": "Semantic Content Platform",
+				"link": null,
+				"status": "Acquired",
+				"backgroundColor": "blue-black",
+				"fontColor": "off-white",
+				"logo": null
+			},
+			{
+				"title": "Corona Labs",
+				"tagline": "Mobile Game Engine",
+				"link": "https://coronalabs.com/",
+				"status": "Acquired",
+				"backgroundColor": "dark-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwElEQVQoz5XRuQrCQBCA4U1IIihISCOKhQpG8IAUFmLh0Sg2Imghvv9zZP1HZ8N6FDrwMZPNZvaIMYS11riMEDUVmn9Dm7g6QhtFWZYFuYM6El0o+OLxPfOffaRwQZ0yuMSF+kzeYIYcA/TQ11pyFw3/hNXudIUW9rjhihO2WGOn5P1BrfREwUtDb4Um5jSXRkcsMOR5pDsdY4KpkvH0Y4fegNxTRoNcj5khVoneceyJ3D36P/e9qWscVhN+/LkSd2b2PYFYP4bCAAAAAElFTkSuQmCC",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/9d8a18a865b1d9faa6cd5143f202e89b478f8c79-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/9d8a18a865b1d9faa6cd5143f202e89b478f8c79-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/9d8a18a865b1d9faa6cd5143f202e89b478f8c79-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/9d8a18a865b1d9faa6cd5143f202e89b478f8c79-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "FundRocket",
+				"tagline": "Funding Small Business",
+				"link": "https://fundrocket.com/",
+				"status": "Acquired",
+				"backgroundColor": "light-purple",
+				"fontColor": "off-white",
+				"logo": null
+			},
+			{
+				"title": "Gas Pos",
+				"tagline": "Truck Stop Point of Sale",
+				"link": "https://www.gaspos.co/",
+				"status": null,
+				"backgroundColor": "strong-amber",
+				"fontColor": "off-white",
+				"logo": null
+			},
+			{
+				"title": "Good Counsel",
+				"tagline": "Lifestyle eCommerce Brand",
+				"link": "https://www.goodcounsel.com/",
+				"status": null,
+				"backgroundColor": "light-grey",
+				"fontColor": "dark-purple",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmklEQVQoz63OMQ/CIBCGYcBBHdQYFahGpTro4GKqprX//3/5lh6maeJg0ksejnDkA6UGKhtq5UKplGdho2Ew6jG9c/Pjnm5yYrk2cIY9cgSccYLHCjsccZCe5qlbjGOoBG5wR4knKtlf5IEbCjzwwlvu1NKvWLhO4FReyeRXmVhijjWczLrzrWjmkxho28C/+FAplyN86TQbvD4ATzLLzD+eUgAAAABJRU5ErkJggg==",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/3c94d1d52146fc5c15f312d0b0d94e1744e23d69-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/3c94d1d52146fc5c15f312d0b0d94e1744e23d69-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/3c94d1d52146fc5c15f312d0b0d94e1744e23d69-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/3c94d1d52146fc5c15f312d0b0d94e1744e23d69-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Indio",
+				"tagline": "Modern Commercial Insurance Platform",
+				"link": "https://www.useindio.com/",
+				"status": "Acquired",
+				"backgroundColor": "grey",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA00lEQVQoz33RSwsBURTA8TvjOVgooawoC3kUkpTHRsqOPQtJiSiSR1ZWPvaM/62jZsbk1q9z5s69576U4zhK041owNRRuZqMCSNi27apAtq3hvIVtFBAFgnEEEWeQi1iQ+dI8h2XRUzXfG9BBmXIh5hijAG6mOGIFWMmxBF6KMomDJn/U1DvboEHrrjjhifeeEn/BXv0kfKc1HfkHObYYokNTuKMA4vuZLdr6GuI/itoyTEqKKGMOjpoo0pB/a+JGnnac38Bj+J5aVceEu4+019Mxw+JF2sAkeG+ewAAAABJRU5ErkJggg==",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/6a58133d05b4c2bab3529e450ed0975b5bb317e3-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/6a58133d05b4c2bab3529e450ed0975b5bb317e3-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/6a58133d05b4c2bab3529e450ed0975b5bb317e3-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/6a58133d05b4c2bab3529e450ed0975b5bb317e3-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "IO Turbine",
+				"tagline": "High-Performance Virtualization",
+				"link": null,
+				"status": "Acquired",
+				"backgroundColor": "blue-black",
+				"fontColor": "off-white",
+				"logo": null
+			},
+			{
+				"title": "Iterable",
+				"tagline": "Cross-Channel Marketing Platform ",
+				"link": "https://iterable.com/",
+				"status": null,
+				"backgroundColor": "dark-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAt0lEQVQoz5XRzQqCQBiFYR2hqCSyAiOKfmhjqwoiqquoba1qWfe/1N7Jo2kE1cDj+WT0c8ZxHEaSJE6WcRxXSMt1/hzPPvaSoVlAri3qNlxqA++NYc7TnNFzha5pNrHHBVfVHRlggplyhKmyh/qnhiEOuOGOI8YYYo4VttjITjuJyCD/RYWGNSYX5Aln6qVW7aPFfVerCZV9pd1Blfl0hbYoNG0gEj/74K/Kp/N62UjpBPMVfDnlBx3LPLSgXZCWAAAAAElFTkSuQmCC",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/5d5f1852c290ae5f2dba0153db81d3fa0c80e7fc-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/5d5f1852c290ae5f2dba0153db81d3fa0c80e7fc-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/5d5f1852c290ae5f2dba0153db81d3fa0c80e7fc-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/5d5f1852c290ae5f2dba0153db81d3fa0c80e7fc-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Kamcord",
+				"tagline": "Immersive Advertising for Mobile Games",
+				"link": null,
+				"status": "Acquired",
+				"backgroundColor": "medium-purple",
+				"fontColor": "off-white",
+				"logo": null
+			},
+			{
+				"title": "Modern Health",
+				"tagline": "Mental Health & Wellness for the Workforce",
+				"link": "https://www.joinmodernhealth.com/",
+				"status": null,
+				"backgroundColor": "light-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAw0lEQVQoz63QyQrCQAyA4am1tSAIKop1LYJ6kFL14MUVUQRP+gY+iY/e+kcyWERvDnykk6SzmSzLzK8htTRNX+TbsrX8XIb02aKDInwUZE7R+bbZ5yI6f/dqooIZ9hihg4hF28QWQjRQRY18mMt1MSBXJ7pGTxThjgeu2OCCEw44Yo05P8bEleZ3OKuYWiD3lgWb2OLGfEmcIJEF9OQLTDFEH2P6Eq1Jj2zSI+fbK7sIUNboqVKOr+/s5t7b1jzNm7+PJwwkPhmPQh0DAAAAAElFTkSuQmCC",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/f6d95d06fde9dc830853c2a10fb619318653ce43-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/f6d95d06fde9dc830853c2a10fb619318653ce43-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/f6d95d06fde9dc830853c2a10fb619318653ce43-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/f6d95d06fde9dc830853c2a10fb619318653ce43-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Moesif",
+				"tagline": "User Behavior API Analytics ",
+				"link": "https://www.moesif.com/",
+				"status": null,
+				"backgroundColor": "strong-amber",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAq0lEQVQoz2NgQAP///8H0//+/QOxeYBYBYgNQBgopgak+YGYEVktXgBTBKRZgNgYiOuAeDYUNwOxNRCzkWMgOxD7AvE6ID4KxAeg7Agg5ob5ghQDOYA4CKhpE5DeDcQbgezVQDoGiHmJdiHMViDNBtTgBcQrgXgPEO8A4lVA8VAgzUWygUDFzECsBcRZ0LBrAeICIDYEYlZywhCEQa4UAWJpKBaFBgUDrjAEABLe4dEyu6o0AAAAAElFTkSuQmCC",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/9cccd2de9ff0edb1c2cf06abef63e0635fbdd0d8-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/9cccd2de9ff0edb1c2cf06abef63e0635fbdd0d8-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/9cccd2de9ff0edb1c2cf06abef63e0635fbdd0d8-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/9cccd2de9ff0edb1c2cf06abef63e0635fbdd0d8-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Natero",
+				"tagline": "Proactive Customer Success Platform",
+				"link": null,
+				"status": "Acquired",
+				"backgroundColor": "light-grey",
+				"fontColor": "dark-purple",
+				"logo": null
+			},
+			{
+				"title": "NextRoll",
+				"tagline": "Growth Marketing Platform ",
+				"link": "https://www.nextroll.com/",
+				"status": null,
+				"backgroundColor": "grey",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAvUlEQVQoz63QzQsBQRjH8dFqWysHanGXk4uSIhLJS+6U4sJJHNxE/vZd39l+u40zU5+eeXnmaeYxhpEkSerXkdaI49g4RUus68QmqqjYPRThaV6TAL6ilz8om+ighwP2WMscfXQxwRY7zYc6i7KHuQUjJb5w0sUbHrjijAsXn8Q37nJkr0UsuF81+sYIC3TQxgArLLk0JVoz+2rWdn+DMRp5QaeoR1JoOT3z1bdQsaTWBMotOz3+/vI/hq31ATm/LWNNWMMIAAAAAElFTkSuQmCC",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/03417096936ce87d2ff3e2de8003966bdf8dc13b-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/03417096936ce87d2ff3e2de8003966bdf8dc13b-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/03417096936ce87d2ff3e2de8003966bdf8dc13b-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/03417096936ce87d2ff3e2de8003966bdf8dc13b-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "NextSense",
+				"tagline": "Revolutionizing Brain Health Through Remote Monitoring",
+				"link": null,
+				"status": null,
+				"backgroundColor": "blue-black",
+				"fontColor": "off-white",
+				"logo": null
+			},
+			{
+				"title": "Omny Health",
+				"tagline": "Data Sharing for Health Care and Pharma",
+				"link": "https://omnyhealth.com/",
+				"status": null,
+				"backgroundColor": "dark-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAuUlEQVQoz4WRawvCMAxFu7kXqBNRhvhBp1Pw+U1E9P//rc0TuUIdBQOH2zRtmqTOYV3Xua/6hGJmbdsG9z/aC2QcnqIzmMAIP0GNEiw2hqHFRA5RKOEA5iSo0QYucIWKvUrrm3QPO6k9HocSprCErRLa5QecSXhC7/CEl2JHOKjqYMux2l3DBqzSmr1Gj6y86hvWC+vIWv6Za2/QieZS4hc2UyhEpnnl8lOdj/zPc33H/7V/9q3Kb/kNzJhMioNclPIAAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/78373bdba2e08135a20c3078a668bbeb34b892f7-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/78373bdba2e08135a20c3078a668bbeb34b892f7-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/78373bdba2e08135a20c3078a668bbeb34b892f7-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/78373bdba2e08135a20c3078a668bbeb34b892f7-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Origin",
+				"tagline": "Financial Well-Being Platform for Employees ",
+				"link": "https://www.useorigin.com/",
+				"status": null,
+				"backgroundColor": "medium-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0UlEQVQoz3XRzQsBQRjH8V3We+SoCDk54ILiIincJaGUKK9Hifzxu77P9qx2WVOfZnbmmd/uzBoGzbZtw2uO47hCxiYsFVgLZHiTMsE4jSLKKKGqfQF19NHUuYqu5+RlnyzfF1iEyqYFdthijRnmOOKOvdRQK+sbtJEMC4yjiwteuGGFJa544qHrJwLPGjpENiwwoscdYKLHky9uYIqDBozQQwct1JAIBPpCo3qPGSlCTHu5r7GGyUtThCcQ1xrT/z+Mn4evJpvYnKcX1p8at38DhhdTJj/h11EAAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/79b3885af0ba8f530cd58db01780786fd2acc9dd-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/79b3885af0ba8f530cd58db01780786fd2acc9dd-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/79b3885af0ba8f530cd58db01780786fd2acc9dd-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/79b3885af0ba8f530cd58db01780786fd2acc9dd-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Outward",
+				"tagline": "Virtual Reality Engine for eCommerce",
+				"link": "https://www.outwardinc.com/",
+				"status": "Acquired",
+				"backgroundColor": "light-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAm0lEQVQoz62Ryw4CIQxFESa6USfqKL4SFybq/38geGouGUR32uTk0tDSB85hKSX3q+Wc3w+mEKADDxPzKVb8mhJX7sa3KseClrCGHhawggE20q3Yi51yghoax8WZWjD+CT3DUUkHuMCNuztqPKRXiDD7NvKrQ5KGqivrcq5OowrEhl6jf4xseO2sU4Gyy7K30O6ReF9N2fzQH+wJ8ukgA87N4c8AAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/7a19aef8b8cf036ce444601c3385f1ec5c4dabe1-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/7a19aef8b8cf036ce444601c3385f1ec5c4dabe1-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/7a19aef8b8cf036ce444601c3385f1ec5c4dabe1-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/7a19aef8b8cf036ce444601c3385f1ec5c4dabe1-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Parabola",
+				"tagline": "Automate Repetitive Data Tasks ",
+				"link": "https://parabola.io/",
+				"status": null,
+				"backgroundColor": "strong-amber",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwElEQVQoz6WQPQvCQBBEozkNFiIEG9EiKH4rWiiIlSIWglgI+v9/SeIb2cidpR485m43s3eZqCiK6Jcl3zeflee5CjVomMaQaE+vijo7J37dfG9/eUk5UKYebGEMfVhT174LQ+ttpNQXaAdN0bYuCQbai2S6wIkPj+gVDrCHMzyp39EH3GAHK10MafDbbCrQwpCBBk+MAYxgCnN7/QyWXj+DZpChF6xycZaRs+yUqeMcWzSx1eplTz7/dcHQf5b8L1IzNptJeUMoAAAAAElFTkSuQmCC",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/9dd5b4e31f4699ca0e0ba03609c877f928e10c24-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/9dd5b4e31f4699ca0e0ba03609c877f928e10c24-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/9dd5b4e31f4699ca0e0ba03609c877f928e10c24-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/9dd5b4e31f4699ca0e0ba03609c877f928e10c24-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Periscope Data",
+				"tagline": "Advanced Analytics and Predictive Modeling",
+				"link": null,
+				"status": "Acquired",
+				"backgroundColor": "light-grey",
+				"fontColor": "dark-purple",
+				"logo": null
+			},
+			{
+				"title": "Perzo",
+				"tagline": "Secure Messaging Platform",
+				"link": null,
+				"status": "Acquired",
+				"backgroundColor": "grey",
+				"fontColor": "off-white",
+				"logo": null
+			},
+			{
+				"title": "Relimetrics",
+				"tagline": "Computer Vision Platform for Manufacturing ",
+				"link": "https://relimetrics.com/",
+				"status": null,
+				"backgroundColor": "blue-black",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAuklEQVQoz62RSwrCMBCG28TWjfioFa1vVJAi6A08gFsv4P0PkfgNTGqyEDcOfPzzSCaTJPPeZ/8w6dP1cs5J0IcxDMUnV6BWwO+hEpcRRYRNBtNNB3jg3+EIS5hCDWvYUm/QhcYbaMjNdAgbj2qgpfiCJ/4NPUkT2OGfpQ57WOmBbXSwHFomd9frXuECc5rUOuFEa5XqAEZSY00FIfeZMGoc3sQoVlVqOZuNai4ar5F/6CwJvvzgrzXB3j4KKw5xrWbJAAAAAElFTkSuQmCC",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/ca08e628500004375b74940c63a7d2fdac7c4fe5-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/ca08e628500004375b74940c63a7d2fdac7c4fe5-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/ca08e628500004375b74940c63a7d2fdac7c4fe5-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/ca08e628500004375b74940c63a7d2fdac7c4fe5-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Runa",
+				"tagline": "Real-Time eCommerce Optimization",
+				"link": null,
+				"status": "Acquired",
+				"backgroundColor": "dark-purple",
+				"fontColor": "off-white",
+				"logo": null
+			},
+			{
+				"title": "Safi Analytics",
+				"tagline": "Manufacturing Automation Cloud",
+				"link": "https://safianalytics.com/en/home",
+				"status": null,
+				"backgroundColor": "medium-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAuUlEQVQoz5WRywrCQAxFp62tr40UVFyoILhQsBtRhIIIouDSpf//H1NP4FZGpIoDh5umkzshcU6nqioXxt77GI1Q9+uEta9EnURTmMAK5tCDFnSgbcojfbSr/KdpmIQRlHCFEyzsAUw2sCXewwEKvodo/M0wghmchZma0RK9oQ/UuMNRdxOrfRuNZlZ3mBPv0IuKpuq6UHfW5Vpmg8YOgy4TDHPNbwyZ5TQ/I+N/CokW17yYpkX9s+Uns0sX5RGsfBEAAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/80c876b0065f0b81ef9732352b6d4a73bd760f8b-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/80c876b0065f0b81ef9732352b6d4a73bd760f8b-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/80c876b0065f0b81ef9732352b6d4a73bd760f8b-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/80c876b0065f0b81ef9732352b6d4a73bd760f8b-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Sage",
+				"tagline": "A modern operating system for senior care",
+				"link": "https://hellosage.com/",
+				"status": null,
+				"backgroundColor": "medium-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAACE4AAAhOAFFljFgAAAAv0lEQVQY033QzQsBQRjH8VlZpLxcnL0c5ERxEDflDyBKOTkhN7l5uVDi4uq/nfF96tltQjv1aWaf3f3NM2MMwzlndE6hihF6qKCEgip7axF6/5p4eMUsBthhhQlmwlo7ZZ6rhb5rUQ+TAjPo44AbLjjigStOBLyY3/Ke9Rj5n0CKUWBadsVSuqS+wVY3kPA7njhjja40kdRhgCLqaOjcREePutfjtvWu5dvgb2BUkG79i9bnnAYPUZOTfDUSZ30ANfMoAN1w9p0AAAAASUVORK5CYII=",
+							"aspectRatio": 3.411513859275053,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/b5b7085d5284f3018e29a6003fe260a7275600fe-1600x469.png?w=800&h=235&fit=crop",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/b5b7085d5284f3018e29a6003fe260a7275600fe-1600x469.png?w=200&h=59&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b5b7085d5284f3018e29a6003fe260a7275600fe-1600x469.png?w=400&h=117&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b5b7085d5284f3018e29a6003fe260a7275600fe-1600x469.png?w=800&h=235&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b5b7085d5284f3018e29a6003fe260a7275600fe-1600x469.png?w=1200&h=352&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b5b7085d5284f3018e29a6003fe260a7275600fe-1600x469.png 1600w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/b5b7085d5284f3018e29a6003fe260a7275600fe-1600x469.png?w=800&h=235&fit=crop&fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/b5b7085d5284f3018e29a6003fe260a7275600fe-1600x469.png?w=200&h=59&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b5b7085d5284f3018e29a6003fe260a7275600fe-1600x469.png?w=400&h=117&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b5b7085d5284f3018e29a6003fe260a7275600fe-1600x469.png?w=800&h=235&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b5b7085d5284f3018e29a6003fe260a7275600fe-1600x469.png?w=1200&h=352&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b5b7085d5284f3018e29a6003fe260a7275600fe-1600x469.png?fm=webp 1600w",
+							"sizes": "(max-width: 800px) 100vw, 800px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "SensorTower",
+				"tagline": "Mobile Ecosystem Analytics  ",
+				"link": "https://sensortower.com/",
+				"status": null,
+				"backgroundColor": "light-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAvUlEQVQoz5WRywrCMBBF01bwgeCiYgWfRXAhgo+uFBTr0v//ntQzMgmjuGngcDPtZOZO4hyraRoX1NJmee+d+1OsCzlMYAgZJCQn+l/2qajEUsQ2/6gJJLGACi6w58AG1uxXsIQFzGCqTccwkAbRpSmY6aEnvOAON5JqtEYf6BU9oQc4wo5YJkqjwzC7jpETn9XhVh2Ju5LvJTpXZ4W6FIf94DCOHOBQBx3pPfbM/Vncz96a+n4Y+9Jtls1/A/MbNHPbBdxBAAAAAElFTkSuQmCC",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/606b7fcd41f9e4bca4e56f4fd65a3b5e3bc1c1d0-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/606b7fcd41f9e4bca4e56f4fd65a3b5e3bc1c1d0-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/606b7fcd41f9e4bca4e56f4fd65a3b5e3bc1c1d0-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/606b7fcd41f9e4bca4e56f4fd65a3b5e3bc1c1d0-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Shelterluv",
+				"tagline": "Pet Health & Wellness Platform",
+				"link": "https://www.shelterluv.com/",
+				"status": null,
+				"backgroundColor": "strong-amber",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmElEQVQoz62R7QqCQBBF3ZQCwQgrIQXtgxAKCoze/812OwOzMdqvKOFw587Fu+ImIYTkX8+7Swbv/Qyd4lTTCc5kkVHzHCpooFVk3pp9x6F7zWRf4ndojYpf2MIczgR39AED3PA9HJl72TE/NRN/gitc4ECW28IMVnpSpSqsYSmZ+dq4L2GjWvBONvqZ30KBs/7zZn683cgLTLchj9dWmHgAAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/50c3ffef7bfd9ce29d3a3d00561d2f114e286395-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/50c3ffef7bfd9ce29d3a3d00561d2f114e286395-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/50c3ffef7bfd9ce29d3a3d00561d2f114e286395-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/50c3ffef7bfd9ce29d3a3d00561d2f114e286395-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Silexica",
+				"tagline": "Democratizing Accelerated Computing",
+				"link": "https://www.silexica.com/",
+				"status": null,
+				"backgroundColor": "light-grey",
+				"fontColor": "dark-purple",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAuklEQVQoz63RywrCMBAF0IlVQV34qCb1QZui+Ni5aqJu3fgL/v+HeMdOdUA3goFD6CSZXFJyPtKvIysjZTjnFFue3xucPzULLSVRdN3YPHy9yPkL0bKomoZdSMHCFBzMYSG1mdR5zwo2staXiyS+D2Trhj0oYCubed7DAdZQysy1K9zhBjsYcChpGCVubMNQEqQqDRvBGCaSlJtUcIS8DvPRMDzfEd9GUw9vlEQCdGQ2r4aSjv4x+Kc8AMlKL5XfglCiAAAAAElFTkSuQmCC",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/09c2bc4904e26275a2dec17cbd401519c21e4020-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/09c2bc4904e26275a2dec17cbd401519c21e4020-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/09c2bc4904e26275a2dec17cbd401519c21e4020-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/09c2bc4904e26275a2dec17cbd401519c21e4020-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Spellbrush",
+				"tagline": "Creativity for the AI Edge",
+				"link": "https://spellbrush.com/",
+				"status": null,
+				"backgroundColor": "grey",
+				"fontColor": "off-white",
+				"logo": null
+			},
+			{
+				"title": "Splashtop",
+				"tagline": "Remote Access From Any Device ",
+				"link": "https://www.splashtop.com/",
+				"status": null,
+				"backgroundColor": "blue-black",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAv0lEQVQoz43RUQsBQRDA8Tt1zkmUFBESLx6ELvfgUSKcJ+Ur+BS++p3/aEZ7IrZ+ze7s7uztnpfnuSctyzJP+hKt2dy39j7/HFuS6KOBNiLJO3ynX7KxFTGFU4hVvm5NvGKJFjoYqh76mKgBumgieBV1CsqCG+44adENh6Q4YIsduVQdsccctcKVlRS8sOlMnGKMmHFCXCjZPFMxVsyPiOGnghW9Zp1FgV4joi/5smzSaHOhvnXgvufPP/lvszoPPF03mzzWZz0AAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/be2cc969c03886db93b3f235510695c19caf9902-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/be2cc969c03886db93b3f235510695c19caf9902-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/be2cc969c03886db93b3f235510695c19caf9902-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/be2cc969c03886db93b3f235510695c19caf9902-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Symphony",
+				"tagline": "Collaboration Platform for Wall Street",
+				"link": "https://symphony.com/",
+				"status": null,
+				"backgroundColor": "dark-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAArUlEQVQoz63RwQqCQBDG8WWjEKSDlVlQUSHUpTI85KXeoN7/aXb7T4ylZp4Sfow7yufuaLz35l/XK6sMpPYxQoQBLHotbONemNrGtDHBDVcsMNO6wtY5l1LXut6oJca6mU+oLiTgjgf22BFyoGa4oMAZud4XPM80NHgH0ixDhziyPlFjaqRfFwmm9GQkMeayAdZyqlCO3TZDywuBqM6lOZ9f/a/Arj/XFS4nrPafAkUxbTlaatcAAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/844945c4f466b6b97b764e1497f6573df9eed2fa-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/844945c4f466b6b97b764e1497f6573df9eed2fa-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/844945c4f466b6b97b764e1497f6573df9eed2fa-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/844945c4f466b6b97b764e1497f6573df9eed2fa-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Tag.bio",
+				"tagline": "Data Analytics for Healthcare and Life Sciences",
+				"link": "https://tag.bio/",
+				"status": null,
+				"backgroundColor": "medium-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAqklEQVQoz6XRPQvCMBSF4URq/cLZQcGhICKCqIg6KOrQ2clFFP0P/v7E98IZOrQUtPBw0pDeJLfO6QkhuF+fGGP5hCWa6KJVkEqHjftkj2yTSfHbsoK2IEOOPWZYY6fc4oyL5sa2UV3BDT5444irxk/c8cALNyztNpUFuYZnPCRP5AojTLTJQadeYI4pBnaIyoIaN9Q3O62nuL2npPXNephojfF1Pfz7L38B6JYEKxyP5TsAAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/efd406a05564e914b897bb445de61daf2057016a-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/efd406a05564e914b897bb445de61daf2057016a-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/efd406a05564e914b897bb445de61daf2057016a-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/efd406a05564e914b897bb445de61daf2057016a-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Talage",
+				"tagline": "Powering Digital Distribution of Commercial Insurance",
+				"link": "https://www.talageins.com/",
+				"status": null,
+				"backgroundColor": "light-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0UlEQVQoz3XRwQvBYBjH8U2zUKRIuWnTjhSJg4OSi8LFEmUn5ML/f9p8n3nGy1Af77N3797nt72Wpb84jrPSSpJEFOCijIoqwYEta8z13w9ntSyswkMPA4wxwQhD9BGgLU0IYmeB0n3MDZl04GHF3B5b7BAyt2EUIQ5Yoitv8REsK5QkbGGmG0W44IQzrrjjJk3RoS6ae6R/r7jPlK52nmKOhVrjyP1I0wX6fT9C5T6spqzxYJOxLrVx7TP6jA09sP+HYt7MdXuvlWb2rwOVtxQPiS5ekjF/ov4AAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/209b7792b44a4bf369ea07637b2c6f0759e2a366-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/209b7792b44a4bf369ea07637b2c6f0759e2a366-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/209b7792b44a4bf369ea07637b2c6f0759e2a366-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/209b7792b44a4bf369ea07637b2c6f0759e2a366-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "TapResearch",
+				"tagline": "Consumer Insights Platform",
+				"link": "https://www.tapresearch.com/",
+				"status": null,
+				"backgroundColor": "strong-amber",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVQoz2NgQAL///8HYyibBYiV//375wGkg6DYC4g1gJgNXT1WANSMbCAPEIcB8UogPgjER4B4CxCnALEgunqsAM2F/ECcBsR7gfg8UPNlIH0OiCuBWBSqhpGggSBboWwBqIGbgXgTEK8H4u1AXIxkIMkuzAbi4yAXAvFJKLscZiBRXkZyIRcQ+wLxTKAYKBxXAPEcIA4HYj5yXMgExCJArAU00ACIDYFsHSAWB2JmXAYCABSMEInC5dpyAAAAAElFTkSuQmCC",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/4c52465fb09202fb927e359a666a1ff8f702bc7e-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/4c52465fb09202fb927e359a666a1ff8f702bc7e-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/4c52465fb09202fb927e359a666a1ff8f702bc7e-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/4c52465fb09202fb927e359a666a1ff8f702bc7e-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Tarsier",
+				"tagline": "Computer Vision for Drone Detection ",
+				"link": "https://www.tarsier.co/",
+				"status": null,
+				"backgroundColor": "light-grey",
+				"fontColor": "dark-purple",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAnklEQVQoz4WRbQ6CMBBEC1QSA2r4atdf1Eso3P9izuIQK2ht8jK0dF8W1his4TYZHyZ9XBLkwGo6nqeWH++bg09ZCS6gZeo+E8D3O2LHVlhQ0oMGdMwzOIGK1KT8J7TsrGVhQ/kArkCAY3q9o52nhDk76SntuD9GXVVRHiTMS638EK5d1vx0LbI6GPfl362yl3BODiaLSE84PIyMb9kTSBwr4Tqh+VIAAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/e0f50940d841917901a237d0da5b9f7d3c78ae41-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/e0f50940d841917901a237d0da5b9f7d3c78ae41-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/e0f50940d841917901a237d0da5b9f7d3c78ae41-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/e0f50940d841917901a237d0da5b9f7d3c78ae41-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Womply",
+				"tagline": "Local Commerce and Data Platform ",
+				"link": "https://www.womply.com/",
+				"status": null,
+				"backgroundColor": "grey",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAArElEQVQoz43RvQrCMBSG4VqKQkFR/CsugoI4uLvoJhRdRNw7O0tL8Yq8y8Q3cFoOrUEDDyehyZdDGgQyrLV1VSL0McIQMUJjTL1Hn22NaqNaz1jfUOCJiwvXZ7xhjQ5D6W4tQW+Rc8mW2pM9/tBG4AAbHJChxAsP6XInT9D5N3CMPVI6SqknnHFnfaUeMa8C3VN9DVS6mGCBhANTN6euqEuZxz9/ivdD+0Lv3g/gWAtOyoojqgAAAABJRU5ErkJggg==",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/b0c982c29d3a9f3564563f11858d9f9ebd5aed74-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/b0c982c29d3a9f3564563f11858d9f9ebd5aed74-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/b0c982c29d3a9f3564563f11858d9f9ebd5aed74-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/b0c982c29d3a9f3564563f11858d9f9ebd5aed74-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "WorkPatterns",
+				"tagline": "Modern Team Management",
+				"link": "https://www.workpatterns.com/",
+				"status": null,
+				"backgroundColor": "blue-black",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAs0lEQVQoz53RTQrCMBCG4bYqFfxBpWj8W+lCpV3VA+jSA3gK779tfUe+hrZYBAsPk0wmYZoEZVkG376ufNdn9X6PJoOiKMYYMg6rPHNfLKE01hpNsGCHHUjckTNOiBPMsUCiaJZYVTlqZ8QRIt+udUbihheeuOCIE87IqEmVzyTVmtVtENf/P1bRA1c4deFkhz22WHO40yGfTtVlv35gqLubwmLU0rMNiu01f6d/veavl34DwSoiu3cx+ssAAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/177a0012c1588a1c7ff2c462303b5e9c2ab7ed49-180x60.svg",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/177a0012c1588a1c7ff2c462303b5e9c2ab7ed49-180x60.svg 180w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/177a0012c1588a1c7ff2c462303b5e9c2ab7ed49-180x60.svg?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/177a0012c1588a1c7ff2c462303b5e9c2ab7ed49-180x60.svg?fm=webp 180w",
+							"sizes": "(max-width: 180px) 100vw, 180px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "GoodCall",
+				"tagline": "AI-Enabled Smart Agent for SMBs",
+				"link": "https://www.goodcall.ai/",
+				"status": null,
+				"backgroundColor": "blue-black",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": null,
+					"altText": null
+				}
+			},
+			{
+				"title": "ControlHub",
+				"tagline": "Automating the Procure-to-Pay Process",
+				"link": "https://controlhub.com/",
+				"status": null,
+				"backgroundColor": "light-grey",
+				"fontColor": null,
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABiElEQVQoz52R3SuDURzHz0SeZtvzWKIt74lQiButxrJ5HS5YobxdbK0IJSzs/M6xWi7shuSGjCs3pIQQ2aP8CfJP+B/4HtutG099+j7nPL/z+Z1zHsZ4hiksZLK/nh5Ks3FxlB3Ev7LJTQPrOpGtjL9rv3Oxb8YsPFOMDy6kATRQBPQ8/mpj/M1aSnfOQTquWBW77oQkPS52ivfklsNFty6sG0VdSOPP1R10kY+mFiVsA37gA55c9ubxTBe6ew3+MNRPJzNrIjm1I0UvCTkAsW9aHNRo/MVTQveRdroYmxX7TaqZEnrQKYSMIBdAFO9hMA9h2M6flgN0GlsXyQ0Il4SQK8g5jJsha6ml66if0otRkQqgWZUS1gEvCIJhEADdaqcQBmz8achHZwMQ9EkpBrEoiB12TYrDBhzV7+CP4Ua67JsQh1XbImFTP0TL3Z8zlw7M2bNp6hAaXjrXIXRAqO7QSMlNWznduFEzgtog6spY/NPC4h/s/w83rSx7uspC/lKgpurpiv0AIJyuti8wpGYAAAAASUVORK5CYII=",
+							"aspectRatio": 2.956120092378753,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=800&h=271&fit=crop",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=200&h=68&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=400&h=135&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=800&h=271&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=1200&h=406&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=1600&h=541&fit=crop 1600w,\nhttps://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=2400&h=812&fit=crop 2400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png 2560w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=800&h=271&fit=crop&fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=200&h=68&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=400&h=135&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=800&h=271&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=1200&h=406&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=1600&h=541&fit=crop&fm=webp 1600w,\nhttps://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?w=2400&h=812&fit=crop&fm=webp 2400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/da82a79d7a2e4796d8d129c8221b97b30f937052-2560x866.png?fm=webp 2560w",
+							"sizes": "(max-width: 800px) 100vw, 800px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Resquared",
+				"tagline": "Marketing Automation for Targeting Local SMBs",
+				"link": "https://www.re2.ai/",
+				"status": null,
+				"backgroundColor": "light-purple",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAABHElEQVQoz2NgoDY4uHsfw9E9WzjO7ZrEd3d3Nu+n++s5//37y/3//392IM0IpBn+/fuHDTOCaKA8iGaBYgaGFVsPMK/bvlNl384FjtcPtlp/fnbMGGiQB1ChE1CBHhBrAbE2EOsCsSYU60CxNlSNCRArADEzQ9P6Y6y9mw+brty9Pf7i6bXhX97c9gFK5AMNrADSeUCcDeIDcTkQF0DFCoE4E4jTofwsILYAYlaG+BWnmXPXnVGZsvesw+nLF60/v3+l+/ffPzuggV5ABb5QHALESUAcA2UHAbE7ELtC5UFsZbAL3eceYQhdfJy9Ycs5vt1nbvG8ePGG/c/fv+xAA7mACnigmB+IxYFYBMrmBWIuKAbJc4NcBw5DagMA5vsmtTCMxX4AAAAASUVORK5CYII=",
+							"aspectRatio": 3,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/77c2772c5df66b25a333f7eee22bbd9129377ee2-600x200.png",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/77c2772c5df66b25a333f7eee22bbd9129377ee2-600x200.png?w=150&h=50&fit=crop 150w,\nhttps://cdn.sanity.io/images/299aiw1y/production/77c2772c5df66b25a333f7eee22bbd9129377ee2-600x200.png?w=300&h=100&fit=crop 300w,\nhttps://cdn.sanity.io/images/299aiw1y/production/77c2772c5df66b25a333f7eee22bbd9129377ee2-600x200.png 600w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/77c2772c5df66b25a333f7eee22bbd9129377ee2-600x200.png?fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/77c2772c5df66b25a333f7eee22bbd9129377ee2-600x200.png?w=150&h=50&fit=crop&fm=webp 150w,\nhttps://cdn.sanity.io/images/299aiw1y/production/77c2772c5df66b25a333f7eee22bbd9129377ee2-600x200.png?w=300&h=100&fit=crop&fm=webp 300w,\nhttps://cdn.sanity.io/images/299aiw1y/production/77c2772c5df66b25a333f7eee22bbd9129377ee2-600x200.png?fm=webp 600w",
+							"sizes": "(max-width: 600px) 100vw, 600px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Segments.ai",
+				"tagline": "Platform for computer vision dataset management and iteration",
+				"link": "https://segments.ai/",
+				"status": null,
+				"backgroundColor": "light-grey",
+				"fontColor": "dark-purple",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAC4jAAAuIwF4pT92AAABPUlEQVQY002QvUoDQRSF72Q3EjUa/NlNdGfNbtawSXam0CSNhRrQRkFJZ2XtA+QJLAQbwVYkNgkh+INoLWLvI1j7AILtjGeWFA58nLszO+feOaTfw4wazrZUP3uub1jv55pV42o9t+KLqSSuMcJyPUEul2CinmTQDJScFMHMHpRIf1Rs9bhwrAYzD/rOvvq6nG6GkajgsFHkInK4DB0uAhgEuFROlcsIrKNRCU2AXAOLqDOECS01nuvAcKxH+afvvtNtbSSbS6tyD4YHMDmC6T4u7IAO2DU1mmxDm6AN4y3TCHsWqfsCqVsrxrMv9PPy8PeFd08OG968K8OSLwQmbePnOijjeSEamAl91GYqjql88w0KqNOICNl5apQ/1a/FM/UW1D4HiUXUYEEksjDMAXuSH7JK85rkKtj//Ax/gvpUcuYl024AAAAASUVORK5CYII=",
+							"aspectRatio": 4.137931034482759,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/540c1b23b0aaa7b09d73d2f8b3fff1b621bd3985-1200x290.png?w=800&h=193&fit=crop",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/540c1b23b0aaa7b09d73d2f8b3fff1b621bd3985-1200x290.png?w=200&h=48&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/540c1b23b0aaa7b09d73d2f8b3fff1b621bd3985-1200x290.png?w=400&h=97&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/540c1b23b0aaa7b09d73d2f8b3fff1b621bd3985-1200x290.png?w=800&h=193&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/540c1b23b0aaa7b09d73d2f8b3fff1b621bd3985-1200x290.png 1200w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/540c1b23b0aaa7b09d73d2f8b3fff1b621bd3985-1200x290.png?w=800&h=193&fit=crop&fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/540c1b23b0aaa7b09d73d2f8b3fff1b621bd3985-1200x290.png?w=200&h=48&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/540c1b23b0aaa7b09d73d2f8b3fff1b621bd3985-1200x290.png?w=400&h=97&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/540c1b23b0aaa7b09d73d2f8b3fff1b621bd3985-1200x290.png?w=800&h=193&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/540c1b23b0aaa7b09d73d2f8b3fff1b621bd3985-1200x290.png?fm=webp 1200w",
+							"sizes": "(max-width: 800px) 100vw, 800px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Avatour",
+				"tagline": "Telepresence for Site-Specific Inspection and Meetings",
+				"link": "https://avatour.co/",
+				"status": null,
+				"backgroundColor": "blue-black",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAdUlEQVQI12P478vA9r/JW+X/rjkW/z+8Mvz//7/O/39/tYG0ORDbAbEpENsAsSUU2wKxGUjdv3//dKB8f6haEYb/3gzc/3uitP6f22H9/+d3E6Cg8f9///SBtAVUEchwZSBWBcsBDQUaZAqVB7EtoIYaAbEQACz3eCE1pDMJAAAAAElFTkSuQmCC",
+							"aspectRatio": 10.303030303030303,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=800&h=78&fit=crop",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=200&h=19&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=400&h=39&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=800&h=78&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=1200&h=116&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=1600&h=155&fit=crop 1600w,\nhttps://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=2400&h=233&fit=crop 2400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png 3400w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=800&h=78&fit=crop&fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=200&h=19&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=400&h=39&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=800&h=78&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=1200&h=116&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=1600&h=155&fit=crop&fm=webp 1600w,\nhttps://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?w=2400&h=233&fit=crop&fm=webp 2400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/8cf6ca0a5d13ccd46ac5acddc6abfa2826368ca1-3400x330.png?fm=webp 3400w",
+							"sizes": "(max-width: 800px) 100vw, 800px"
+						}
+					},
+					"altText": null
+				}
+			},
+			{
+				"title": "Ash",
+				"tagline": "Enabling At-Home Diagnostics for Easy Healthcare Delivery",
+				"link": "https://www.poweredbyash.com/",
+				"status": null,
+				"backgroundColor": "grey",
+				"fontColor": "off-white",
+				"logo": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAC4jAAAuIwF4pT92AAAApUlEQVQY04XQPQvCMBCA4QgORVA3pwp+LRZHRRAcXN0F9+IgRRBXB2np0t/if0x8A3dyBcHAw12T3LVX52SFEJz3XvMOUmwxRhc9TDCLudbYutaKm/FQLiY4slfjRL7GAWdcsMdAG2pda9kD4ggPvFFKXqPiBQ2xwDxOorU/G5qRU/Kc+MQVd55fxBty+erp34bGEEtkFGfEDXZYYSH/sm8m+vb5AAeS49CGuPeYAAAAAElFTkSuQmCC",
+							"aspectRatio": 4.054054054054054,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=800&h=197&fit=crop",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=200&h=49&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=400&h=99&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=800&h=197&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=1200&h=296&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=1600&h=395&fit=crop 1600w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=2400&h=592&fit=crop 2400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png 7500w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=800&h=197&fit=crop&fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=200&h=49&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=400&h=99&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=800&h=197&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=1200&h=296&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=1600&h=395&fit=crop&fm=webp 1600w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?w=2400&h=592&fit=crop&fm=webp 2400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2a5b378fa116c38aa48208bafcbe4c5c1aa0f1f2-7500x1850.png?fm=webp 7500w",
+							"sizes": "(max-width: 800px) 100vw, 800px"
+						}
+					},
+					"altText": null
+				}
+			}
+		]
+	}
+}

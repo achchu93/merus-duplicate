@@ -1,73 +1,282 @@
-import React from "react"
-import tw, { css } from "twin.macro"
+/* eslint-disable no-console */
+import React, { useRef, useState } from "react"
+import tw, { css, theme } from "twin.macro"
+import Grid from "~components/styles/Grid"
+import * as A from "~components/styles/Animations"
+import * as T from "~components/styles/Typography"
+import * as Icon from "~components/svg/Icons"
+import Go from "~components/Go"
 
-import NewsLetter from "./newsletter";
+const Footer = () => {
+	const submitRef = useRef()
 
-const Footer = ({}) => {
+	const [email, setEmail] = useState(null)
+	const [submitting, setSubmitting] = useState(false)
+	const [submitted, setSubmitted] = useState(false)
+
+	//
+
+	const submitProxy = () => {
+		if (submitRef?.current) {
+			submitRef.current.click()
+		}
+	}
+
+	const onSubmit = e => {
+		e.preventDefault()
+
+		if (!email || email === `` || submitting || submitted) {
+			return false
+		}
+
+		if (
+			typeof window !== `undefined` &&
+			window.location.href.includes(`localhost:8000`)
+		) {
+			setSubmitting(true)
+
+			setTimeout(() => {
+				setSubmitting(false)
+				setSubmitted(true)
+			}, 3000)
+
+			return false
+		}
+
+		setSubmitting(true)
+
+		const mailchimpData = {
+			email,
+		}
+
+		fetch(`${process.env.GATSBY_NETLIFY_FUNCTIONS}/mailchimp`, {
+			body: JSON.stringify(mailchimpData),
+			method: `POST`,
+		})
+			.then(() => {
+				console.log(`Mailchimp Complete`)
+
+				setSubmitting(false)
+				setSubmitted(true)
+			})
+			.catch(error => {
+				console.error(error)
+			})
+
+		return false
+	}
 
 	return (
-		<footer
-			css={[
-				tw`relative pt-12 pb-16 lg:pt-8 lg:pb-6 bg-footer text-secondary`,
-			]}
-		>
-			<div
-				css={[
-					tw`grid grid-cols-12 gap-x-1 relative px-2 lg:px-9 lg:gap-x-4`,
-				]}
-			>
-				<div css={[tw`col-span-12 mb-4 lg:col-span-2 lg:mb-0`]}>
-					<p css={[tw`font-extralight`]}>
-						<span>©</span>
-						<span css={[tw`font-medium`]}>Merus</span>
+		<footer tw="relative pt-12 md:pt-8 pb-16 md:pb-6 bg-light-grey text-grey">
+			<Grid node="nav">
+				<div tw="col-span-12 md:col-span-2 mb-4 md:mb-0">
+					<T.Body
+						font="3"
+						styles={[
+							css`
+								font-weight: 200;
+							`,
+						]}
+					>
+						<span>©{` `}</span>
+						<span
+							css={[
+								css`
+									font-weight: 500;
+								`,
+							]}
+						>
+							Merus
+						</span>
 						<span>Capital</span>
-					</p>
+					</T.Body>
 				</div>
-				<div css={[tw`col-span-12 mb-4 lg:col-span-2 lg:mb-0`]}>
-					<p css={[tw`font-extralight`]}>
-						<a href="https://twitter.com" target="_blank">
+
+				<div tw="col-span-12 md:col-span-2 mb-4 md:mb-0">
+					<T.Body
+						font="3"
+						styles={[
+							css`
+								font-weight: 200;
+
+								&:hover {
+									text-decoration: underline;
+								}
+							`,
+						]}
+					>
+						<Go to="https://twitter.com/meruscapital" newTab>
 							Twitter
-						</a>
-					</p>
-					<p css={[tw`font-extralight`]}>
-						<a href="https://twitter.com" target="_blank">
+						</Go>
+					</T.Body>
+
+					<T.Body
+						font="3"
+						styles={[
+							css`
+								font-weight: 200;
+
+								&:hover {
+									text-decoration: underline;
+								}
+							`,
+						]}
+					>
+						<Go
+							to="https://www.linkedin.com/company/merus-capital"
+							newTab
+						>
 							LinkedIn
-						</a>
-					</p>
-					<p css={[tw`font-extralight`, css`margin-top:12px;`]}>
-						<a href="mailto:info@meruscap.com" target="_blank">
-							info@meruscap.com
-						</a>
-					</p>
+						</Go>
+					</T.Body>
+
+					<T.Body
+						font="3"
+						styles={[
+							css`
+								font-weight: 200;
+								margin-top: 12px;
+
+								&:hover {
+									text-decoration: underline;
+								}
+							`,
+						]}
+					>
+						<a href="mailto:info@meruscap.com">info@meruscap.com</a>
+					</T.Body>
 				</div>
-				<div css={[tw`col-span-12 mb-4 lg:col-span-3 lg:mb-0`]}>
-					<p css={[tw`font-extralight`]}>
-						<a href="https://twitter.com" target="_blank" css={[tw`flex items-center`]}>
+
+				<div tw="col-span-12 md:col-span-3 mb-4 md:mb-0">
+					<T.Body
+						font="3"
+						styles={[
+							css`
+								font-weight: 200;
+
+								&:hover {
+									text-decoration: underline;
+								}
+							`,
+						]}
+					>
+						<Go
+							to="https://services.intralinks.com/login/"
+							newTab
+							inject={{ tw: tw`flex items-center` }}
+						>
 							<span>Investor Login</span>
-							<svg viewBox="0 0 14 14" fill="none" css={[tw`w-3 relative ml-1`]}>
-								<path d="M6.72599 0.378418V1.88338H10.7076L0.661621 12.0541L1.74719 13.1188L11.7931 2.94641V6.84361H13.33V0.378418H6.72599Z" fill="#707385"></path>
-							</svg>
-						</a>
-					</p>
+							<Icon.ArrowUp
+								styles={[tw`w-3 relative block ml-1`]}
+								color={theme`colors.grey`}
+							/>
+						</Go>
+					</T.Body>
 				</div>
+
 				<div
 					css={[
-						tw`col-span-12 mb-4 mt-8 block relative lg:col-span-4 lg:mb-0 lg:mt-0`,
+						tw`col-span-12 md:col-span-4 relative block mt-8 md:mt-0 mb-4 md:mb-0 `,
 					]}
 				>
-					<p css={[tw`font-extralight`]}>
+					<T.Body
+						font="3"
+						styles={[
+							css`
+								font-weight: 200;
+							`,
+						]}
+					>
 						Subscribe to our newsletter:
-					</p>
-					<NewsLetter />
+					</T.Body>
+
+					<form
+						onSubmit={onSubmit}
+						css={[
+							css`
+								transition: opacity 0.3s ${A.EASING_CUBIC};
+								opacity: ${submitting || submitted
+									? `0.5`
+									: `1`};
+							`,
+							tw`w-full relative block mt-2 md:mt-8 pt-1 pb-1 border-grey border-b`,
+						]}
+					>
+						<input
+							ref={submitRef}
+							tw="w-0 h-0 absolute top-0 right-0 opacity-0 pointer-events-none"
+							type="submit"
+						/>
+
+						<input
+							css={[
+								css`
+									background: transparent;
+									font-family: "ABC Monument Grotesk";
+									font-size: 16px;
+									line-height: 22px;
+									letter-spacing: 0;
+									font-weight: 300;
+
+									//
+
+									&::-webkit-input-placeholder {
+										color: ${theme`colors.grey`};
+									}
+
+									&::-moz-placeholder {
+										color: ${theme`colors.grey`};
+									}
+
+									&:-ms-input-placeholder {
+										color: ${theme`colors.grey`};
+									}
+
+									&:-moz-placeholder {
+										color: ${theme`colors.grey`};
+									}
+								`,
+								tw`w-full relative block pt-1 pb-1`,
+							]}
+							onChange={e => setEmail(e.currentTarget.value)}
+							placeholder="Email"
+							required
+							type="email"
+						/>
+
+						<div css={[tw`h-full absolute top-0 right-0 bottom-0`]}>
+							<button
+								type="button"
+								css={[
+									tw`w-full h-full relative block text-strong-amber`,
+								]}
+								onClick={submitProxy}
+							>
+								<T.Body
+									font="3"
+									styles={[
+										css`
+											font-weight: 300;
+
+											@media not all and (pointer: coarse) {
+												&:hover {
+													text-decoration: underline;
+												}
+											}
+										`,
+									]}
+								>
+									{!submitting && !submitted && `Submit`}
+									{submitting && `Submitting...`}
+									{submitted && `Thanks!`}
+								</T.Body>
+							</button>
+						</div>
+					</form>
 				</div>
-			</div>
+			</Grid>
 		</footer>
 	)
-
 }
-
-Footer.propTypes = {}
-
-Footer.defaultProps = {}
 
 export default Footer

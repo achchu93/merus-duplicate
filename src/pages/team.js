@@ -1,97 +1,156 @@
+/* eslint-disable react/no-danger */
+/* eslint-disable react/prop-types */
+
 import React, { useContext, useEffect, useState } from "react"
-import tw, { theme, css } from "twin.macro"
 import Img from "gatsby-image"
+import tw, { css, theme } from "twin.macro"
+import { useQueryParam, StringParam } from "use-query-params"
 import { StaticImage } from "gatsby-plugin-image"
+import { DocumentContext } from "~context/DocumentContext"
+import Grid from "~components/styles/Grid"
+import * as A from "~components/styles/Animations"
+import * as Icon from "~components/svg/Icons"
+import * as T from "~components/styles/Typography"
+import Footer from "~components/Footer"
+import Layout from "~components/Layout"
+import Seo from "~components/SEO"
+import { useKeyPress } from "~utils/hooks"
+import TeamData from "../content/team.json"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import JSONData from "../content/team.json"
-import { AppContext } from "../context/app-context"
-import { Cross } from "../components/icons"
-
-const TeamPage = () => {
-	// console.log(theme());
+const TeamPage = ({ data, location }) => {
+	const { isDesktop } = useContext(DocumentContext)
 
 	const [activeTeamMember, setActiveTeamMember] = useState(null)
-	const {screen} = useContext(AppContext)
-	const isDesktop = () => !["xs", "sm", "md"].includes( screen )
 	const [overlayed, setOverlayed] = useState(false)
 	const [overlayStyles, setOverlayStyles] = useState({
-		background: theme`backgroundColor.portfolio`,
-		color: theme`colors.primaryGrey`,
+		background: theme`colors.strong-amber`,
+		color: theme`colors.off-white`,
 	})
 
-	const title = `A clarity of purpose.
+	const [member] = useQueryParam(`member`, StringParam)
 
-We founded Merus in 2008 in order to bring a unique ethos to venture investing.`
+	//
 
-	const body = `We believe in analytical rigor, deep integrity and radical transparency. All tied together by a strictly non-hierarchical approach to getting the job done.
+	const cms = TeamData.sanityTeam
 
-It’s this ‘peer-to-peer’ ethos that not only informs how we manage our firm, but also how we partner with founders.
+	//
 
-Merus means ‘pure’ in Latin. We believe this undiluted commitment to true partnership allows us to best serve our founding teams.`
+	const teamMembers = []
+
+	if (cms?.teamMembers?.[0]) {
+		cms.teamMembers.forEach(teamMember => {
+			teamMembers.push(teamMember)
+		})
+	}
+
+	//
+
+	const escKeyPressed = useKeyPress(`Escape`)
 
 	useEffect(() => {
+		if (escKeyPressed) {
+			setActiveTeamMember(false)
+		}
+	}, [escKeyPressed])
 
-		if( activeTeamMember ){
+	useEffect(() => {
+		if (member) {
+			teamMembers.forEach(teamMember => {
+				if (teamMember?.name === member) {
+					setTimeout(() => {
+						setActiveTeamMember(teamMember)
+					}, 1000)
+				}
+			})
+		}
+	}, [member])
+
+	useEffect(() => {
+		if (activeTeamMember) {
 			setOverlayed(true)
 			setOverlayStyles({
-				background: theme`backgroundColor`[activeTeamMember.backgroundColor],
-				color: theme`colors`[activeTeamMember.fontColor]
+				background: theme`colors`[activeTeamMember.backgroundColor],
+				color: theme`colors`[activeTeamMember.fontColor],
 			})
-		}else{
+		} else {
 			setOverlayed(false)
 		}
 	}, [activeTeamMember])
 
-	return (
-		<>
+	//
+
+	const titleJSX = (
+		<Grid styles={[tw`h-full`]}>
 			<div
 				css={[
 					css`
-						transition: opacity 0.5s
-								${theme`transitionTimingFunction.header-in`},
-							transform 0.5s
-								${theme`transitionTimingFunction.header-in`};
+						${A.Keyframes(
+							`appearRight`,
+							`0.75s ${A.EASING_CUBIC} forwards`,
+							`0.8s`
+						)}
+					`,
+					tw`col-span-12 md:col-span-6 h-full flex items-center`,
+				]}
+			>
+				<T.Heading
+					font="3"
+					level="2"
+					styles={[tw`whitespace-pre-wrap text-grey`]}
+				>
+					{cms.intro}
+				</T.Heading>
+			</div>
+		</Grid>
+	)
+
+	//
+
+	return (
+		<>
+			<Seo
+				title={cms?.title || ``}
+				description={cms?.seoDescription || ``}
+				customKeywords={cms?.seoKeywords || ``}
+				path={location.pathname}
+			/>
+
+			<div
+				css={[
+					css`
+						transition: opacity 0.5s ${A.EASING_CUBIC},
+							transform 0.5s ${A.EASING_CUBIC};
+
 						opacity: ${overlayed ? `1` : `0`};
 						pointer-events: ${overlayed ? `auto` : `none`};
 						transform: scale(${overlayed ? `1.025` : `1`});
+
 						background: ${overlayStyles.background};
 						color: ${overlayStyles.color};
 					`,
-					tw`w-screen h-screen fixed top-0 right-0 bottom-0 left-0 z-50 overflow-y-scroll px-4 lg:px-0`,
+					tw`w-screen h-screen fixed top-0 right-0 bottom-0 left-0 z-50 overflow-y-scroll px-4 md:px-0`,
 				]}
 			>
-				<section
-					css={[
-						tw`grid grid-cols-12 gap-x-1 relative px-2 lg:gap-x-4 lg:px-10`,
-					]}
-				>
+				<Grid node="section">
 					<div
 						css={[
-							tw`col-span-12 lg:col-span-8 lg:col-start-3 relative mt-16 lg:mt-48 lg:mb-16`,
+							css``,
+							tw`col-span-12 md:col-span-8 md:col-start-3 relative mt-16 md:mt-48 md:mb-16`,
 						]}
 					>
 						<div
 							css={[
+								css``,
 								tw`w-8 h-8 absolute top-0 right-0 -mt-10 md:-mt-8 -mr-2 md:-mr-8`,
 							]}
 						>
 							<button
 								type="button"
 								onClick={() => setActiveTeamMember(null)}
-								css={[
-									tw`w-8 h-8 relative block focus:outline-none`,
-								]}
+								css={[css``, tw`w-8 h-8 relative block`]}
 							>
-								<Cross
-									color={
-										activeTeamMember
-											? theme`colors`[
-													activeTeamMember.fontColor
-											  ]
-											: theme`colors.primaryGrey`
-									}
+								<Icon.Cross
+									color={overlayStyles.color}
 									styles={[css``, tw`w-8 h-8`]}
 								/>
 							</button>
@@ -127,74 +186,109 @@ Merus means ‘pure’ in Latin. We believe this undiluted commitment to true pa
 							tw`col-span-12 md:col-span-3 md:col-start-3 mt-4 md:mt-0`,
 						]}
 					>
-						<h2
-							css={[
-								tw`font-theme text-h-1 font-light leading-h-1`,
-								css`
-									letter-spacing: -0.01em;
-								`,
-							]}
-						>
+						<T.Heading font="3" level="2">
 							{activeTeamMember?.name || ``}
-						</h2>
+						</T.Heading>
 
-						<h2
-							css={[
-								tw`mt-2 mb-8 lg:mb-0 font-theme text-h-2 font-light leading-h-2`,
-								css`
-									letter-spacing: -0.01em;
-								`,
-							]}
-						>
+						<T.Heading font="b1" styles={[tw`mt-2 mb-8 md:mb-0`]}>
 							{activeTeamMember?.title || ``}
-						</h2>
+						</T.Heading>
 					</header>
 
 					<div
 						css={[
-							tw`col-span-12 md:col-span-5 mb-24 md:mb-64 text-p-1 whitespace-pre-wrap font-theme font-light`,
+							css`
+								font-family: ${theme`fontFamily`.body.join()};
+								font-weight: 300;
+							`,
+							tw`col-span-12 md:col-span-5 mb-24 md:mb-64 text-b1 whitespace-pre-wrap`,
 						]}
 						dangerouslySetInnerHTML={{
 							__html: activeTeamMember?.profile || ``,
 						}}
 					/>
-				</section>
+				</Grid>
 			</div>
+
+			{/* // */}
 
 			<Layout
 				styles={[
-					tw`pt-32 lg:pt-64`,
-					activeTeamMember && tw`overflow-hidden z-10`,
+					css`
+						overflow: ${overlayed ? `hidden` : `auto`};
+					`,
+					tw`pt-32 md:pt-64 bg-off-white`,
 				]}
 			>
-				<Seo title="Team" />
+				{cms?.bannerImage?.asset?.fluid && (
+					<Grid>
+						<div
+							css={[
+								css`
+									${A.Keyframes(
+										`appearRight`,
+										`0.75s ${A.EASING_CUBIC} forwards`,
+										`0.8s`
+									)}
+
+									padding-bottom: 100%;
+
+									@media screen and (min-width: 1024px) {
+										padding-bottom: 0;
+									}
+								`,
+								tw`col-span-12 relative pt-12 md:pt-64`,
+							]}
+						>
+							{(isDesktop() && (
+								<figure css={[tw`w-full relative block`]}>
+									<Img
+										css={[tw`w-full relative block`]}
+										fluid={cms.bannerImage.asset.fluid}
+										alt="Team members posing"
+									/>
+								</figure>
+							)) || (
+								<figure
+									css={[
+										tw`w-full h-full absolute top-0 right-0 bottom-0 left-0 flex items-center justify-center`,
+									]}
+								>
+									<Img
+										css={[
+											tw`w-full h-full relative object-cover`,
+										]}
+										fluid={cms.bannerImage.asset.fluid}
+										alt="Team members posing"
+									/>
+								</figure>
+							)}
+						</div>
+					</Grid>
+				)}
 
 				<section
 					css={[
 						css`
-							backface-visibility: hidden;
-							transform: translate3d(0px, 1rem, 0px);
-							animation-delay: 0.25s;
+							${A.Keyframes(
+								`appear`,
+								`1s ${A.EASING_CUBIC} forwards`,
+								`0.25s`
+							)}
 						`,
-						tw`opacity-0 animate-appear`,
 					]}
 				>
-					<ul
-						css={[
-							tw`grid grid-cols-12 gap-x-1 relative px-2 lg:gap-x-4 lg:px-10`,
-						]}
-					>
-						{JSONData.teamMembers.map((member, index) => {
-							return (
+					{teamMembers?.[0] && (
+						<Grid node="ul">
+							{teamMembers.map((teamMember, teamMemberIndex) => (
 								<li
-									key={member.name
+									key={teamMember.name
 										.toLowerCase()
 										.replace(/ /g, `-`)}
 									css={[
-										tw`col-span-6 lg:col-span-4 relative block overflow-hidden mb-8 lg:mb-5`,
 										css`
 											&:hover {
-												@media (min-width: ${theme`screens.lg`}) {
+												@media screen and (min-width: 1024px) {
 													article {
 														transform: scale(1);
 														opacity: 1;
@@ -205,46 +299,51 @@ Merus means ‘pure’ in Latin. We believe this undiluted commitment to true pa
 													}
 												}
 											}
+
 											figure {
 												transition: transform 0.3s
-													${theme`transitionTimingFunction.header-in`};
+													${A.EASING_CUBIC};
+
 												transform: scale(1);
 											}
 
 											article {
 												transition: opacity 0.3s
-														${theme`transitionTimingFunction.header-in`},
+														${A.EASING_CUBIC},
 													transform 0.3s
-														${theme`transitionTimingFunction.header-in`};
+														${A.EASING_CUBIC};
 
 												opacity: 0;
 												transform: scale(1.05);
 											}
 										`,
+										tw`col-span-6 md:col-span-4 relative block overflow-hidden mb-8 md:mb-5`,
 									]}
 								>
 									<div
 										css={[
 											css`
-												@media screen and (min-width: ${theme`screens.lg`}) {
+												@media screen and (min-width: 1025px) {
 													padding-bottom: 83.333%;
 												}
 											`,
 											tw`relative`,
 										]}
 									>
-										<div
+										<button
+											type="button"
 											onClick={() =>
-												setActiveTeamMember(member)
+												setActiveTeamMember(teamMember)
 											}
 											css={[
-												tw`w-full lg:h-full lg:absolute lg:top-0 lg:right-0 lg:bottom-0 lg:left-0 cursor-pointer text-center`,
+												tw`w-full md:h-full md:absolute md:top-0 md:right-0 md:bottom-0 md:left-0`,
 											]}
 										>
-											{(member?.image?.asset?.fluid && (
+											{(teamMember?.image?.asset
+												?.fluid && (
 												<figure
 													css={[
-														tw`w-full lg:h-full lg:absolute lg:top-0 lg:right-0 lg:bottom-0 lg:left-0`,
+														tw`w-full md:h-full md:absolute md:top-0 md:right-0 md:bottom-0 md:left-0`,
 													]}
 												>
 													<Img
@@ -252,10 +351,10 @@ Merus means ‘pure’ in Latin. We believe this undiluted commitment to true pa
 															tw`w-full h-full relative block object-cover`,
 														]}
 														fluid={
-															member.image.asset
-																.fluid
+															teamMember.image
+																.asset.fluid
 														}
-														alt={member.name}
+														alt={teamMember.name}
 													/>
 												</figure>
 											)) || (
@@ -269,210 +368,153 @@ Merus means ‘pure’ in Latin. We believe this undiluted commitment to true pa
 											<div
 												css={[
 													css`
-														backface-visibility: hidden;
-														opacity: 1;
-														animation: disappear 1s
-															cubic-bezier(
-																0.215,
-																0.61,
-																0.355,
-																1
-															)
-															forwards;
+														${A.Keyframes(
+															`disappear`,
+															`1s ${A.EASING_CUBIC} forwards`,
+															`1s`
+														)}
 														animation-delay: ${0.75 +
-														index * 0.125}s;
-														background: ${theme`backgroundColor`[
-															member
+														teamMemberIndex *
+															0.125}s;
+
+														background: ${theme`colors`[
+															teamMember
 																.backgroundColor
 														]};
 													`,
 													tw`w-full h-full absolute top-0 right-0 bottom-0 left-0 z-20 pointer-events-none`,
 												]}
-											></div>
+											/>
 
 											{isDesktop() && (
 												<article
 													css={[
 														css`
-															background: ${theme`backgroundColor`[
-																member
+															background: ${theme`colors`[
+																teamMember
 																	.backgroundColor
 															]};
 															color: ${theme`colors`[
-																member.fontColor
+																teamMember
+																	.fontColor
 															]};
 														`,
 														tw`w-full h-full relative z-10 flex flex-col items-center justify-center px-8`,
 													]}
 												>
-													<h2
-														css={[
-															tw`font-theme font-light`,
-															css`
-																font-size: 34px;
-																line-height: 34px;
-																letter-spacing: -0.01em;
-															`,
-														]}
-													>
-														{member.name}
-													</h2>
+													<T.Heading font="b1">
+														{teamMember.name}
+													</T.Heading>
 
-													<p
-														css={[
-															tw`font-theme text-p-1 leading-p-1 font-light`,
-															css`
-																letter-spacing: 0.01em;
-															`,
-														]}
+													<T.Body
+														font="2"
+														styles={[tw`mt-2`]}
 													>
-														{member.title}
-													</p>
+														{teamMember.title}
+													</T.Body>
 												</article>
 											)}
-										</div>
+										</button>
+
 										{!isDesktop() && (
 											<>
-												<p
-													css={[
-														tw`mt-1 font-theme text-p-2 leading-p-2 font-light tracking-normal`,
-													]}
+												<T.Body
+													font="2"
+													styles={[tw`mt-1`]}
 												>
-													{member.name}
-												</p>
-												<span
-													css={[
-														tw`block font-theme text-p-3 leading-p-3 font-light tracking-normal`,
-													]}
+													{teamMember.name}
+												</T.Body>
+												<T.Caption
+													styles={[tw`block`]}
+													weight={300}
 												>
-													{member.title}
-												</span>
+													{teamMember.title}
+												</T.Caption>
 											</>
 										)}
 									</div>
 								</li>
-							)
-						})}
-					</ul>
+							))}
+						</Grid>
+					)}
 				</section>
 
-				<section css={[tw`pt-20 pb-32 lg:py-48`]}>
-					<div
-						css={[
-							tw`grid grid-cols-12 gap-x-1 relative h-full px-2 lg:gap-x-4 lg:px-10`,
-						]}
-					>
+				<section css={[tw`pt-20 md:pt-48 pb-32 md:pb-48`]}>
+					{titleJSX}
+				</section>
+
+				{cms?.body && (
+					<Grid>
 						<div
 							css={[
-								css`
-									backface-visibility: hidden;
-									transform: translate3d(-1rem, 0, 0);
-									animation: appearRight 0.75s
-										cubic-bezier(0.215, 0.61, 0.355, 1)
-										forwards;
-									animation-delay: 0.8s;
-								`,
-								tw`h-full flex items-center opacity-0 col-span-12 lg:col-span-6`,
+								tw`col-span-12 md:col-span-5 md:col-start-7 mb-32 md:mb-48 whitespace-pre-wrap text-grey`,
 							]}
 						>
-							<h2
-								css={[
-									css`
-										letter-spacing: -0.01em;
-									`,
-									tw`whitespace-pre-wrap text-secondary font-theme text-h-1 font-light leading-h-1`,
-								]}
-							>
-								{title}
-							</h2>
+							<T.Body font="2">{cms.body}</T.Body>
 						</div>
-					</div>
-				</section>
-
-				<div
-					css={[
-						tw`grid grid-cols-12 gap-x-1 px-2 lg:gap-x-4 lg:px-10`,
-					]}
-				>
-					<div
-						css={[
-							tw`col-span-12 whitespace-pre-wrap mb-32 lg:col-span-5 lg:mb-48 text-secondary lg:col-start-7`,
-						]}
-					>
-						<p
-							css={[
-								css`
-									letter-spacing: 0.01em;
-								`,
-								tw`font-theme text-p-1 font-light leading-p-1`,
-							]}
-						>
-							{body}
-						</p>
-					</div>
-				</div>
+					</Grid>
+				)}
 
 				<section
 					css={[
-						tw`w-full relative py-4 bg-secondary text-primaryGrey lg:py-6`,
+						tw`w-full relative pt-4 md:pt-6 pb-4 md:pb-6 bg-grey text-off-white`,
 					]}
 				>
-					<div
-						css={[
-							tw`grid grid-cols-12 gap-x-1 px-2 lg:gap-x-4 lg:px-10`,
-						]}
-					>
+					<Grid>
 						<figure
 							css={[
-								tw`col-span-6 lg:col-span-4 xl:col-span-3 h-full relative flex items-center`,
+								tw`col-span-6 md:col-span-4 lg:col-span-3 h-full relative flex items-center`,
 							]}
 						>
 							<StaticImage
-								src="../images/peter-hsing.jpg"
 								css={[tw`w-full relative block`]}
+								src="../images/peter-hsing.jpg"
 								alt="Peter Hsing"
+								layout={"fullWidth"}
 							/>
 						</figure>
+
 						<div
 							css={[
-								tw`col-span-6 relative pl-3 flex flex-col justify-center lg:col-span-8 lg:pl-12 xl:col-span-9`,
+								tw`col-span-6 md:col-span-8 lg:col-span-9 relative pl-3 md:pl-12 flex flex-col justify-center`,
 							]}
 						>
-							<h2
-								css={[
-									css`
-										letter-spacing: -0.01em;
-									`,
-									tw`font-theme text-h-1 font-light leading-h-1`,
-								]}
-							>
-								Peter Hsing
-							</h2>
-							<p
-								css={[
-									css`
-										letter-spacing: 0.01em;
-									`,
-									tw`my-3 font-theme text-p-1 font-light leading-p-1 lg:my-6`,
-								]}
-							>
-								1968-2020
-							</p>
-							<p
-								css={[
-									css`
-										letter-spacing: 0.01em;
-									`,
-									tw`font-theme text-p-1 font-light leading-p-1`,
-								]}
-							>
-								Friend, colleague, and fierce
-								<br />
-								advocate for founders
-							</p>
+							{(isDesktop() && (
+								<T.Heading font="3">Peter Hsing</T.Heading>
+							)) || <T.Body font="1">Peter Hsing</T.Body>}
+
+							{(isDesktop() && (
+								<T.Body
+									font="2"
+									styles={[tw`mt-3 md:mt-6 mb-3 md:mb-8`]}
+								>
+									1968-2020
+								</T.Body>
+							)) || (
+								<T.Caption
+									styles={[tw`mt-3 md:mt-6 mb-3 md:mb-8`]}
+								>
+									1968-2020
+								</T.Caption>
+							)}
+
+							{(isDesktop() && (
+								<T.Body font="2">
+									Friend, colleague, and fierce
+									<br />
+									advocate for founders
+								</T.Body>
+							)) || (
+								<T.Caption>
+									Friend, colleague, and fierce advocate for
+									founders
+								</T.Caption>
+							)}
 						</div>
-					</div>
+					</Grid>
 				</section>
+
+				<Footer />
 			</Layout>
 		</>
 	)

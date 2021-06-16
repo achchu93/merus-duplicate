@@ -1,130 +1,138 @@
 ﻿{
-	"teamMembers": [
-		{
-			"name": "Salman Ullah",
-			"title": "General Partner",
-			"profile": "Before co-founding Merus, Salman was Vice President of Corporate Development at Google, where he spent a number of years managing the global team responsible for all of Google’s acquisitions and investments. Prior to Google, Salman spent more than seven years at Microsoft in several roles, including General Manager of Corporate Strategy and Managing Director of Corporate Development. Earlier in his career, he was an Engagement Manager at McKinsey where he focused on the tech and consumer goods sectors. \n\nSalman was a Post-Doctoral Research Fellow in physics at the University of Chicago and The University of Virginia. He holds an undergraduate degree in physics from The University of Oxford, and a Ph.D. in theoretical physics from Stanford University. \n\nHometown: London, UK",
-			"backgroundColor": "footer",
-			"fontColor": "perspectives",
-			"image": {
-				"asset": {
-					"fluid": {
-						"base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAcIBQb/xAAiEAACAQQCAgMBAAAAAAAAAAABAgMABAURBiEHQRJRYXH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABoRAAICAwAAAAAAAAAAAAAAAAABAhIDBBH/2gAMAwEAAhEDEQA/AHJzVSJLkxgfModf2l/4zyjQrd2WVuQkplJhjlOjr3r8rovMt7LYwq8DFSZADr6qe8nlpryQTMSrklVIPY7q8NayWRslLYr3HwqQoG7GiKKxOKXLy8bxryEsxgXZPvqijUVj/9k=",
-						"aspectRatio": 1.4273170731707316,
-						"src": "https://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=800&h=560&fit=crop",
-						"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=200&h=140&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=400&h=280&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=800&h=560&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=1200&h=841&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg 1463w",
-						"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp",
-						"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=200&h=140&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=400&h=280&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=1200&h=841&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?fm=webp 1463w",
-						"sizes": "(max-width: 800px) 100vw, 800px"
-					}
-				},
-				"altText": "Salman Ullah"
+	"sanityTeam": {
+		"title": "Team",
+		"seoDescription": null,
+		"seoKeywords": [],
+		"bannerImage": null,
+		"intro": "A clarity of purpose. \n\nWe founded Merus in 2008 in order to bring a unique ethos to venture investing.",
+		"body": "We believe in analytical rigor, deep integrity and radical transparency. All tied together by a strictly non-hierarchical approach to getting the job done.\n \nIt’s this ‘peer-to-peer’ ethos that not only informs how we manage our firm, but also how we partner with founders.\n \nMerus means ‘pure’ in Latin. We believe this undiluted commitment to true partnership allows us to best serve our founding teams.\n",
+		"teamMembers": [
+			{
+				"name": "Salman Ullah",
+				"title": "General Partner",
+				"profile": "Before co-founding Merus, Salman was Vice President of Corporate Development at Google, where he spent a number of years managing the global team responsible for all of Google’s acquisitions and investments. Prior to Google, Salman spent more than seven years at Microsoft in several roles, including General Manager of Corporate Strategy and Managing Director of Corporate Development. Earlier in his career, he was an Engagement Manager at McKinsey where he focused on the tech and consumer goods sectors. \n\nSalman was a Post-Doctoral Research Fellow in physics at the University of Chicago and The University of Virginia. He holds an undergraduate degree in physics from The University of Oxford, and a Ph.D. in theoretical physics from Stanford University. \n\nHometown: London, UK",
+				"backgroundColor": "light-grey",
+				"fontColor": "dark-purple",
+				"image": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAcIBQb/xAAiEAACAQQCAgMBAAAAAAAAAAABAgMABAURBiEHQRJRYXH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABoRAAICAwAAAAAAAAAAAAAAAAABAhIDBBH/2gAMAwEAAhEDEQA/AHJzVSJLkxgfModf2l/4zyjQrd2WVuQkplJhjlOjr3r8rovMt7LYwq8DFSZADr6qe8nlpryQTMSrklVIPY7q8NayWRslLYr3HwqQoG7GiKKxOKXLy8bxryEsxgXZPvqijUVj/9k=",
+							"aspectRatio": 1.4273170731707316,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=800&h=560&fit=crop",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=200&h=140&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=400&h=280&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=800&h=560&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=1200&h=841&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg 1463w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=200&h=140&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=400&h=280&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?w=1200&h=841&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/180195b4e7723b11c83cea6030de62eed2cbbd23-1463x1025.jpg?fm=webp 1463w",
+							"sizes": "(max-width: 800px) 100vw, 800px"
+						}
+					},
+					"altText": "Salman Ullah"
+				}
+			},
+			{
+				"name": "Sean Dempsey",
+				"title": "General Partner",
+				"profile": "Before co-founding Merus, Sean was Principal of Corporate Development at Google, where he was responsible for acquisitions and investments including Android and YouTube. Prior to Google, he spent over six years at Microsoft as a member of the Corporate Development team. In addition to M&A, Sean led the original team that drove Microsoft’s living room strategy, which eventually became Xbox. Before joining Microsoft, he spent two years in tech M&A at Deutsche Morgan Grenfell in Menlo Park and was a Research Analyst at Jennings Group in San Francisco. \n\nSean is a board member of the Peninsula Open Space Trust and is a Trustee of the Hillbrook School in Los Gatos. Sean holds BAs in economics and French from Claremont McKenna College. \n\nHometown: Los Gatos, CA",
+				"backgroundColor": "strong-amber",
+				"fontColor": "off-white",
+				"image": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAcIBv/EACEQAAEEAgICAwAAAAAAAAAAAAECAwQFABEGByFBEhNh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgED/8QAGhEAAgMBAQAAAAAAAAAAAAAAAAIBAxRREv/aAAwDAQACEQMRAD8AbsufFqKFybPdDMZpva1H0MWPCewqdPKZNOXFBU1YcjrHlB36/Dmc5pHurvikortVIhBJK2SN/LXnEc2mXQzq+wZeT9pIcbI3tOCl1sT2bWJKTKlzLSkq3rDJUT2hyQjZnL3hh0xwuZun/9k=",
+							"aspectRatio": 1.4273170731707316,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=800&h=560&fit=crop",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=200&h=140&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=400&h=280&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=800&h=560&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=1200&h=841&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg 1463w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=200&h=140&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=400&h=280&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=1200&h=841&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?fm=webp 1463w",
+							"sizes": "(max-width: 800px) 100vw, 800px"
+						}
+					},
+					"altText": "Sean Dempsey"
+				}
+			},
+			{
+				"name": "David Rangel",
+				"title": "General Partner",
+				"profile": "David was previously a Director at Google Research, where he led teams incubating new AI-enabled products. Prior to Google, he was COO at Iterable, a Merus portfolio company, where he helped grow the company from 5 to 160 employees and helped increase revenue by over 60x. David was also a member of the Corporate Strategy Group at Microsoft, where he worked with other Merus partners on the company’s most important strategic initiatives. \n\nDavid holds an MBA from The University of Chicago Booth School of Business and degrees in computer science and economics from Northwestern University. \n\nHometown: Mexico City, MX",
+				"backgroundColor": "grey",
+				"fontColor": "off-white",
+				"image": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMGBP/EACMQAAIBBAEDBQAAAAAAAAAAAAECAwAEBRESBiExEyNRYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAAEBQb/xAAeEQACAgIDAQEAAAAAAAAAAAABAwIEAAUhUXERMf/aAAwDAQACEQMRAD8AkLqyinZVjvHSFmBdEOgRVVkOmumpr+ILlZMenoq3tptX+/2p2wSSa0knYRKirviB3pmVnEGHW5472BxHwN0bR6mNuuWtlwCePMfutpKrYClx5+fvuMzuBbG5F7e0yEs8AUMkh7Egjfiitsk8l0I5ZFjYlF7t58UVAtQkl019EjNBVZFyYM7AOf/Z",
+							"aspectRatio": 1.4273170731707316,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=800&h=560&fit=crop",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=200&h=140&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=400&h=280&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=800&h=560&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=1200&h=841&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg 1463w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=200&h=140&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=400&h=280&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=1200&h=841&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?fm=webp 1463w",
+							"sizes": "(max-width: 800px) 100vw, 800px"
+						}
+					},
+					"altText": "David Rangel"
+				}
+			},
+			{
+				"name": "Brad Stein",
+				"title": "Partner, Portfolio Operations & CFO",
+				"profile": "Prior to Merus, Brad spent over seven years at Google where he created and implemented the playbook for the successful integration of all acquisitions, including YouTube, Android and dozens of others. Since that time, he has held a number of finance and operational leadership roles at high-growth startups, including Applied Semantics (acquired by Google), MoPub (acquired by Twitter), Good Eggs, and most recently Checkr, where he oversaw and developed G&A functions and played an instrumental role in fundraising. Brad also previously worked at Deloitte in Assurance Services.  \n\nBrad completed his undergraduate studies in economics at Claremont McKenna College. \n\nHometown: Denver, CO",
+				"backgroundColor": "blue-black",
+				"fontColor": "off-white",
+				"image": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAcIAwX/xAAoEAABBAECAgsAAAAAAAAAAAABAgMEBQAGEQciCBMUFiEjMTJBUYH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAaEQEBAQADAQAAAAAAAAAAAAABAgADESEx/9oADAMBAAIRAxEAPwCg3bJitrkuzJLUZlI9y1BIxfx9TO3mqeso7HtUNSw35auUbeuIbpCcQO87ddCgtyI0dkqUtK1DmP4c5vDeym1Wg5E2vkLYkM2DYSpJ+CfHKuGgk8zxUStJ3rCmthT+5G52G+GZR3VPxI7rh3WptJJ+zthmb65Pm//Z",
+							"aspectRatio": 1.4273170731707316,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=800&h=560&fit=crop",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=200&h=140&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=400&h=280&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=800&h=560&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=1200&h=841&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg 1463w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=200&h=140&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=400&h=280&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=1200&h=841&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?fm=webp 1463w",
+							"sizes": "(max-width: 800px) 100vw, 800px"
+						}
+					},
+					"altText": "Brad Stein"
+				}
+			},
+			{
+				"name": "Erin Lockhart",
+				"title": "Partner, Marketing & Investor Relations",
+				"profile": "Prior to joining Merus, Erin led public relations for Cisco’s Web team, where she was responsible for strategic partnerships with companies like Facebook and Google. She was responsible for the public launch of Cisco + Google Station, a global partnership to connect the next billion internet users. For the past 15 years, Erin has worked with high-growth startups, including Merus portfolio company NextRoll, on marketing and PR strategy. She was also a member of the Corporate team at Ketchum, where she was a communications advisor to clients like JPMorgan. \n\nErin completed her undergraduate studies in journalism at Miami University. \n\nHometown: Grand Haven, MI ",
+				"backgroundColor": "dark-purple",
+				"fontColor": "off-white",
+				"image": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAcIAQX/xAAkEAABAwMEAQUAAAAAAAAAAAACAQMFAAQGERMhMQcSFFFhgf/EABUBAQEAAAAAAAAAAAAAAAAAAAME/8QAHBEAAgICAwAAAAAAAAAAAAAAAAIBERITITFh/9oADAMBAAIRAxEAPwBr51Iexxp10DIDTpRXmtxuUGUx2yuTNCeNtFJNedfuktlOYSNy1ksVcHuFHFuNuqnaa9Vw47JpGNyCOZiiEH7m0Ey3VVQ5T4Spods/CmUXVFdlBvqO4vC0VKEt5GyS3k7lk741IHFFfSS6flFJyFR//9k=",
+							"aspectRatio": 1.4273170731707316,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=800&h=560&fit=crop",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=200&h=140&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=400&h=280&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=800&h=560&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=1200&h=841&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg 1463w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=200&h=140&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=400&h=280&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=1200&h=841&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?fm=webp 1463w",
+							"sizes": "(max-width: 800px) 100vw, 800px"
+						}
+					},
+					"altText": "Erin Lockhart"
+				}
+			},
+			{
+				"name": "Denmark West",
+				"title": "Strategic Investment Partner",
+				"profile": "Denmark previously worked in Corporate Development at Microsoft, where he drove joint ventures with Softbank and Qualcomm, supported the incubation of Windows Media and Xbox, and led strategic initiatives around cloud and open source software. He was also Chief of Staff of Windows during the DOJ trials. Denmark was previously EVP of Viacom Media Networks and President of BET Digital Media before founding Connectivity Ventures, an early-stage fund. \n\nDenmark advises the National Basketball Players Association (NBPA), the USO, which supports US military veterans, and Culture Shift Labs, an organization that supports diversity efforts among entrepreneurs, executives and investors. He holds an AB in applied mathematics from Harvard University and an MBA from Harvard Business School. \n\nHometown: Detroit, MI",
+				"backgroundColor": "medium-purple",
+				"fontColor": "off-white",
+				"image": {
+					"asset": {
+						"fluid": {
+							"base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAcIBAX/xAAlEAACAgIBAgYDAAAAAAAAAAABAgMEAAURBkEHCBIiMVETIXH/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAGREBAAMBAQAAAAAAAAAAAAAAAQACEQMS/9oADAMBAAIRAxEAPwCgBGqL2AHc4kdxHZfxn1slJnMpkP5GVv0YgPj+Zk8zPWey1JqafWzSV0mQvK6HgsPrnEEnW28hlpypdkWxV9scwPv9P0T3GF5KDsdLld0lg72fXJspBZZVk4HIOGcSstXda+hfvQl7M1eNpG5+Txhh8kOs/9k=",
+							"aspectRatio": 1.4273170731707316,
+							"src": "https://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=800&h=560&fit=crop",
+							"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=200&h=140&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=400&h=280&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=800&h=560&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=1200&h=841&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg 1463w",
+							"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp",
+							"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=200&h=140&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=400&h=280&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=1200&h=841&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?fm=webp 1463w",
+							"sizes": "(max-width: 800px) 100vw, 800px"
+						}
+					},
+					"altText": "Denmark West"
+				}
 			}
-		},
-		{
-			"name": "Sean Dempsey",
-			"title": "General Partner",
-			"profile": "Before co-founding Merus, Sean was Principal of Corporate Development at Google, where he was responsible for acquisitions and investments including Android and YouTube. Prior to Google, he spent over six years at Microsoft as a member of the Corporate Development team. In addition to M&A, Sean led the original team that drove Microsoft’s living room strategy, which eventually became Xbox. Before joining Microsoft, he spent two years in tech M&A at Deutsche Morgan Grenfell in Menlo Park and was a Research Analyst at Jennings Group in San Francisco. \n\nSean is a board member of the Peninsula Open Space Trust and is a Trustee of the Hillbrook School in Los Gatos. Sean holds BAs in economics and French from Claremont McKenna College. \n\nHometown: Los Gatos, CA",
-			"backgroundColor": "portfolio",
-			"fontColor": "primaryGrey",
-			"image": {
-				"asset": {
-					"fluid": {
-						"base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAcIBv/EACEQAAEEAgICAwAAAAAAAAAAAAECAwQFABEGByFBEhNh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgED/8QAGhEAAgMBAQAAAAAAAAAAAAAAAAIBAxRREv/aAAwDAQACEQMRAD8AbsufFqKFybPdDMZpva1H0MWPCewqdPKZNOXFBU1YcjrHlB36/Dmc5pHurvikortVIhBJK2SN/LXnEc2mXQzq+wZeT9pIcbI3tOCl1sT2bWJKTKlzLSkq3rDJUT2hyQjZnL3hh0xwuZun/9k=",
-						"aspectRatio": 1.4273170731707316,
-						"src": "https://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=800&h=560&fit=crop",
-						"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=200&h=140&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=400&h=280&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=800&h=560&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=1200&h=841&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg 1463w",
-						"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp",
-						"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=200&h=140&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=400&h=280&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?w=1200&h=841&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/dc5cb5112974683c2cbeb10c5513762e25eef539-1463x1025.jpg?fm=webp 1463w",
-						"sizes": "(max-width: 800px) 100vw, 800px"
-					}
-				},
-				"altText": "Sean Dempsey"
-			}
-		},
-		{
-			"name": "David Rangel",
-			"title": "General Partner",
-			"profile": "David was previously a Director at Google Research, where he led teams incubating new AI-enabled products. Prior to Google, he was COO at Iterable, a Merus portfolio company, where he helped grow the company from 5 to 160 employees and helped increase revenue by over 60x. David was also a member of the Corporate Strategy Group at Microsoft, where he worked with other Merus partners on the company’s most important strategic initiatives. \n\nDavid holds an MBA from The University of Chicago Booth School of Business and degrees in computer science and economics from Northwestern University. \n\nHometown: Mexico City, MX",
-			"backgroundColor": "secondary",
-			"fontColor": "primaryGrey",
-			"image": {
-				"asset": {
-					"fluid": {
-						"base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMGBP/EACMQAAIBBAEDBQAAAAAAAAAAAAECAwAEBRESBiExEyNRYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAAEBQb/xAAeEQACAgIDAQEAAAAAAAAAAAABAwIEAAUhUXERMf/aAAwDAQACEQMRAD8AkLqyinZVjvHSFmBdEOgRVVkOmumpr+ILlZMenoq3tptX+/2p2wSSa0knYRKirviB3pmVnEGHW5472BxHwN0bR6mNuuWtlwCePMfutpKrYClx5+fvuMzuBbG5F7e0yEs8AUMkh7Egjfiitsk8l0I5ZFjYlF7t58UVAtQkl019EjNBVZFyYM7AOf/Z",
-						"aspectRatio": 1.4273170731707316,
-						"src": "https://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=800&h=560&fit=crop",
-						"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=200&h=140&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=400&h=280&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=800&h=560&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=1200&h=841&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg 1463w",
-						"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp",
-						"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=200&h=140&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=400&h=280&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?w=1200&h=841&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/b6d22839db8b2179b950372859ec55797536c967-1463x1025.jpg?fm=webp 1463w",
-						"sizes": "(max-width: 800px) 100vw, 800px"
-					}
-				},
-				"altText": "David Rangel"
-			}
-		},
-		{
-			"name": "Brad Stein",
-			"title": "Partner, Portfolio Operations & CFO",
-			"profile": "Prior to Merus, Brad spent over seven years at Google where he created and implemented the playbook for the successful integration of all acquisitions, including YouTube, Android and dozens of others. Since that time, he has held a number of finance and operational leadership roles at high-growth startups, including Applied Semantics (acquired by Google), MoPub (acquired by Twitter), Good Eggs, and most recently Checkr, where he oversaw and developed G&A functions and played an instrumental role in fundraising. Brad also previously worked at Deloitte in Assurance Services.  \n\nBrad completed his undergraduate studies in economics at Claremont McKenna College. \n\nHometown: Denver, CO",
-			"backgroundColor": "home",
-			"fontColor": "primaryGrey",
-			"image": {
-				"asset": {
-					"fluid": {
-						"base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAcIAwX/xAAoEAABBAECAgsAAAAAAAAAAAABAgMEBQAGEQciCBMUFiEjMTJBUYH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAaEQEBAQADAQAAAAAAAAAAAAABAgADESEx/9oADAMBAAIRAxEAPwCg3bJitrkuzJLUZlI9y1BIxfx9TO3mqeso7HtUNSw35auUbeuIbpCcQO87ddCgtyI0dkqUtK1DmP4c5vDeym1Wg5E2vkLYkM2DYSpJ+CfHKuGgk8zxUStJ3rCmthT+5G52G+GZR3VPxI7rh3WptJJ+zthmb65Pm//Z",
-						"aspectRatio": 1.4273170731707316,
-						"src": "https://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=800&h=560&fit=crop",
-						"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=200&h=140&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=400&h=280&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=800&h=560&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=1200&h=841&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg 1463w",
-						"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp",
-						"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=200&h=140&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=400&h=280&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?w=1200&h=841&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/2f9d15fcf412d16dc5f46ee5f02f7daf3e21d398-1463x1025.jpg?fm=webp 1463w",
-						"sizes": "(max-width: 800px) 100vw, 800px"
-					}
-				},
-				"altText": "Brad Stein"
-			}
-		},
-		{
-			"name": "Erin Lockhart",
-			"title": "Partner, Marketing & Investor Relations",
-			"profile": "Prior to joining Merus, Erin led public relations for Cisco’s Web team, where she was responsible for strategic partnerships with companies like Facebook and Google. She was responsible for the public launch of Cisco + Google Station, a global partnership to connect the next billion internet users. For the past 15 years, Erin has worked with high-growth startups, including Merus portfolio company NextRoll, on marketing and PR strategy. She was also a member of the Corporate team at Ketchum, where she was a communications advisor to clients like JPMorgan. \n\nErin completed her undergraduate studies in journalism at Miami University. \n\nHometown: Grand Haven, MI ",
-			"backgroundColor": "perspectives",
-			"fontColor": "primaryGrey",
-			"image": {
-				"asset": {
-					"fluid": {
-						"base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAcIAQX/xAAkEAABAwMEAQUAAAAAAAAAAAACAQMFAAQGERMhMQcSFFFhgf/EABUBAQEAAAAAAAAAAAAAAAAAAAME/8QAHBEAAgICAwAAAAAAAAAAAAAAAAIBERITITFh/9oADAMBAAIRAxEAPwBr51Iexxp10DIDTpRXmtxuUGUx2yuTNCeNtFJNedfuktlOYSNy1ksVcHuFHFuNuqnaa9Vw47JpGNyCOZiiEH7m0Ey3VVQ5T4Spods/CmUXVFdlBvqO4vC0VKEt5GyS3k7lk741IHFFfSS6flFJyFR//9k=",
-						"aspectRatio": 1.4273170731707316,
-						"src": "https://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=800&h=560&fit=crop",
-						"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=200&h=140&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=400&h=280&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=800&h=560&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=1200&h=841&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg 1463w",
-						"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp",
-						"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=200&h=140&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=400&h=280&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?w=1200&h=841&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/e16dc26cdb189e75d4c445b7047e964f2b854c9a-1463x1025.jpg?fm=webp 1463w",
-						"sizes": "(max-width: 800px) 100vw, 800px"
-					}
-				},
-				"altText": "Erin Lockhart"
-			}
-		},
-		{
-			"name": "Denmark West",
-			"title": "Strategic Investment Partner",
-			"profile": "Denmark previously worked in Corporate Development at Microsoft, where he drove joint ventures with Softbank and Qualcomm, supported the incubation of Windows Media and Xbox, and led strategic initiatives around cloud and open source software. He was also Chief of Staff of Windows during the DOJ trials. Denmark was previously EVP of Viacom Media Networks and President of BET Digital Media before founding Connectivity Ventures, an early-stage fund. \n\nDenmark advises the National Basketball Players Association (NBPA), the USO, which supports US military veterans, and Culture Shift Labs, an organization that supports diversity efforts among entrepreneurs, executives and investors. He holds an AB in applied mathematics from Harvard University and an MBA from Harvard Business School. \n\nHometown: Detroit, MI",
-			"backgroundColor": "mcx",
-			"fontColor": "primaryGrey",
-			"image": {
-				"asset": {
-					"fluid": {
-						"base64": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAcIBAX/xAAlEAACAgIBAgYDAAAAAAAAAAABAgMEAAURBkEHCBIiMVETIXH/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAGREBAAMBAQAAAAAAAAAAAAAAAQACEQMS/9oADAMBAAIRAxEAPwCgBGqL2AHc4kdxHZfxn1slJnMpkP5GVv0YgPj+Zk8zPWey1JqafWzSV0mQvK6HgsPrnEEnW28hlpypdkWxV9scwPv9P0T3GF5KDsdLld0lg72fXJspBZZVk4HIOGcSstXda+hfvQl7M1eNpG5+Txhh8kOs/9k=",
-						"aspectRatio": 1.4273170731707316,
-						"src": "https://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=800&h=560&fit=crop",
-						"srcSet": "https://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=200&h=140&fit=crop 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=400&h=280&fit=crop 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=800&h=560&fit=crop 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=1200&h=841&fit=crop 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg 1463w",
-						"srcWebp": "https://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp",
-						"srcSetWebp": "https://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=200&h=140&fit=crop&fm=webp 200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=400&h=280&fit=crop&fm=webp 400w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=800&h=560&fit=crop&fm=webp 800w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?w=1200&h=841&fit=crop&fm=webp 1200w,\nhttps://cdn.sanity.io/images/299aiw1y/production/acbb713efd966d19f14f3510ad4550932879a0c9-1463x1025.jpg?fm=webp 1463w",
-						"sizes": "(max-width: 800px) 100vw, 800px"
-					}
-				},
-				"altText": "Denmark West"
-			}
-		}
-	]
+		]
+	}
 }

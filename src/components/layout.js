@@ -1,49 +1,70 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
 import React, { useContext } from "react"
+import tw, { css, theme } from "twin.macro"
+import { Global } from "@emotion/react"
 import PropTypes from "prop-types"
-import tw, { theme, css } from "twin.macro"
-
-import { AppContext } from "../context/app-context"
-import Footer from "./footer"
+import { AppContext } from "~context/AppContext"
+import { DocumentContext } from "~context/DocumentContext"
+import * as A from "~components/styles/Animations"
 
 const Layout = ({ children, styles }) => {
-
-	const { isMenuOpen, getMenuWidth } = useContext(AppContext)
+	const { menuActive } = useContext(AppContext)
+	const { getMenuWidth } = useContext(DocumentContext)
 
 	return (
-		<div css={[tw`overflow-x-hidden`]}>
+		<>
+			<Global
+				styles={css`
+					body {
+						background: ${theme`colors.grey`};
+					}
+
+					a:focus,
+					button:focus,
+					input:focus,
+					textarea:focus {
+						outline: none;
+					}
+
+					input {
+						border-radius: 0;
+					}
+
+					#gatsby-focus-wrapper{
+						overflow-x: hidden;
+					}
+				`}
+			/>
+
 			<main
+				id="layout"
 				css={[
-					tw`bg-primaryGrey ease-header-in z-10`,
+					...styles,
 					css`
-						transition: transform 0.725s
-							${theme`transitionTimingFunction.header-in`} 0s;
-						transform: translate3d(${isMenuOpen ? getMenuWidth() : "0px"}, 0px, 0px);
-						box-shadow: rgb(0 0 0 / 10%) 0px 4px 18px;
+						transition: ${menuActive ? `0.725` : `0.6`}s
+							${A.EASING_CUBIC} transform;
+						transform: translate3d(
+							${menuActive ? `${getMenuWidth()}` : ``},
+							0,
+							0
+						);
+						box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
 					`,
-					...styles
+					tw`z-10`,
 				]}
 			>
 				{children}
-				<Footer />
 			</main>
-		</div>
+		</>
 	)
+}
+
+Layout.defaultProps = {
+	styles: [],
 }
 
 Layout.propTypes = {
 	children: PropTypes.node.isRequired,
-	styles: PropTypes.array
-}
-
-Layout.defaultProps = {
-	styles: []
+	styles: PropTypes.arrayOf(PropTypes.shape({})),
 }
 
 export default Layout

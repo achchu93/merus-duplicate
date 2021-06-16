@@ -1,78 +1,128 @@
-import * as React from "react"
-import tw, { theme, css } from "twin.macro"
+/* eslint-disable react/prop-types */
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import React, { useContext, useState } from "react"
+import tw, { css } from "twin.macro"
+import { DocumentContext } from "~context/DocumentContext"
+import Footer from "~components/Footer"
+import Layout from "~components/Layout"
+import Seo from "~components/SEO"
+import Grid from "~components/styles/Grid"
+import * as A from "~components/styles/Animations"
+import * as T from "~components/styles/Typography"
+import ScreenHeight from "~components/ScreenHeight"
+import { useTimeout } from "~utils/hooks"
 
-const IndexPage = () => (
-	<Layout styles={[tw`min-h-screen`]}>
-		<Seo title="Home" />
-		<section css={[tw`h-screen`]}>
-			<div
-				css={[
-					tw`grid grid-cols-12 relative h-full gap-x-1 px-2 lg:gap-x-4 lg:px-10`,
+const IndexPage = ({ data, location }) => {
+	const { isDesktop } = useContext(DocumentContext)
+
+	const [rendered, setRendered] = useState(false)
+
+	//
+
+	const cms = {
+		title: "Home",
+		intro: "We empower ambitious teams building tomorrow’s industry-defining platforms",
+		seoDescription: null,
+		seoKeywords: "",
+	}
+
+	useTimeout(() => {
+		setRendered(true)
+	}, 1500)
+
+	//
+
+	return (
+		<>
+			<Seo
+				title={cms?.title || ``}
+				description={cms?.seoDescription || ``}
+				customKeywords={cms?.seoKeywords || ``}
+				path={location.pathname}
+			/>
+
+			<Layout
+				styles={[
+					css`
+						min-height: 99vh;
+					`,
+					tw`bg-off-white`,
 				]}
 			>
-				<div
-					css={[
-						css`
-							backface-visibility: hidden;
-							transform: translate3d(0, -1rem, 0);
-							animation-delay: 0.75s;
-							padding-left: 3vw;
-						`,
-						tw`opacity-0 col-span-6 lg:col-span-3 col-start-7 lg:col-start-9 flex items-end text-secondary animate-appearDown`,
-					]}
-				>
-					<p css={[tw`font-theme text-p-1 font-light leading-p-1`, css`letter-spacing: 0.01em;`]}>
-						We empower ambitious teams building tomorrow’s
-						industry-defining platforms
-					</p>
-				</div>
-				<div
-					css={[
-						tw`opacity-0 col-span-12 h-full flex items-end pb-6 lg:pb-12 animate-appearUp`,
-						css`
-							transition: opacity 1s
-									cubic-bezier(0.215, 0.61, 0.355, 1) 0s,
-								transform 1s cubic-bezier(0.215, 0.61, 0.355, 1)
-									0s;
-							animation-delay: 1s;
-						`,
-					]}
-				>
-					<h1
-						css={[
-							tw`w-full relative flex items-center justify-center text-center`,
-						]}
-					>
-						<span
+				<ScreenHeight>
+					<Grid styles={[tw`h-full`]}>
+						<div
 							css={[
 								css`
-									font-size: 18.5vw;
-									letter-spacing: -0.01em;
+									${A.Keyframes(
+										`appearDown`,
+										`1s ${A.EASING_CUBIC} forwards`,
+										`0.75s`
+									)}
+
+									padding-left: ${isDesktop()
+										? `3vw`
+										: `0.25rem`};
 								`,
-								tw`block leading-none text-home`,
+								tw`col-span-6 md:col-span-3 col-start-7 md:col-start-9 flex items-end text-grey`,
 							]}
 						>
-							Merus
-						</span>
-						<span
+							<T.Body font="2">{cms.intro}</T.Body>
+						</div>
+
+						<div
 							css={[
 								css`
-									font-size: 18.5vw;
-									letter-spacing: -0.01em;
+									transition: opacity 1s ${A.EASING_CUBIC},
+										transform 1s ${A.EASING_CUBIC};
+
+									opacity: ${rendered ? `1` : `0`};
+									transform: translate3d(
+										0,
+										${rendered ? `0` : `2vw`},
+										0
+									);
 								`,
-								tw`block leading-none text-home font-extralight`,
+								tw`col-span-12 h-full flex items-end pb-6 md:pb-12`,
 							]}
 						>
-							Capital
-						</span>
-					</h1>
-				</div>
-			</div>
-		</section>
-	</Layout>
-)
+							<h1
+								css={[
+									tw`w-full relative block flex items-center justify-center text-center`,
+								]}
+							>
+								<span
+									css={[
+										css`
+											font-size: 18.5vw !important;
+											line-height: 1 !important;
+										`,
+										tw`block text-h1 text-blue-black`,
+									]}
+								>
+									Merus
+								</span>
+								<span
+									css={[
+										css`
+											font-size: 18.5vw !important;
+											font-weight: 200;
+											line-height: 1 !important;
+										`,
+										tw`block text-h1 text-blue-black`,
+									]}
+								>
+									Capital
+								</span>
+							</h1>
+						</div>
+					</Grid>
+				</ScreenHeight>
+
+				{rendered && <Footer />}
+			</Layout>
+		</>
+	)
+}
 
 export default IndexPage

@@ -5,22 +5,27 @@
  */
 
 // You can delete this file if you're not using it
-import React from "react";
+import "lazysizes"
 
-import Header from "./src/components/header";
-import Menu from "./src/components/menu";
-import AppProvider from "./src/context/app-context";
+import React from "react"
+import AppProvider from "~context/AppContext"
+import CursorProvider from "~context/CursorContext"
+import DocumentProvider from "~context/DocumentContext"
+import Header from "~components/Header"
+import Nav from "~components/Nav"
 
-import "./src/styles/global.css";
+import "./src/styles/global.css"
 
-
-export const wrapRootElement = ({ element }) => {
-
-	return (
-		<AppProvider>
-			<Header />
-			<Menu />
-			{element}
-		</AppProvider>
-	)
-}
+export const wrapRootElement = ({ element }) => (
+	<>
+		<DocumentProvider>
+			<CursorProvider>
+				<AppProvider>
+					<Header />
+					<Nav />
+					{element}
+				</AppProvider>
+			</CursorProvider>
+		</DocumentProvider>
+	</>
+)
