@@ -29,6 +29,12 @@ const Layout = ({ children, styles }) => {
 					input {
 						border-radius: 0;
 					}
+
+					#___gatsby{
+						overflow-x: hidden !important;
+					}
+
+
 				`}
 			/>
 
