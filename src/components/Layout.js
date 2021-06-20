@@ -32,7 +32,7 @@ const Layout = ({ children, styles }) => {
 					#___gatsby {
 						overflow-x: hidden !important;
 						position: relative !important;
-						width: 100vw !important;
+						max-width: 100vw !important;
 					}
 				`}
 			/>
