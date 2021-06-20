@@ -29,10 +29,8 @@ const Layout = ({ children, styles }) => {
 						border-radius: 0;
 					}
 
-					#___gatsby {
-						overflow-x: hidden !important;
-						position: relative !important;
-						max-width: 100vw !important;
+					#gatsby-focus-wrapper {
+						overflow: hidden !important;
 					}
 				`}
 			/>
