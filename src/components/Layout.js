@@ -17,6 +17,7 @@ const Layout = ({ children, styles }) => {
 					body {
 						background: ${theme`colors.grey`};
 						overflow-x: hidden !important;
+						position: relative;
 					}
 
 					a:focus,
@@ -32,6 +33,7 @@ const Layout = ({ children, styles }) => {
 
 					#___gatsby{
 						overflow-x: hidden !important;
+						position: relative;
 					}
 
 
