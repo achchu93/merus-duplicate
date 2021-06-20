@@ -16,6 +16,7 @@ const Layout = ({ children, styles }) => {
 				styles={css`
 					body {
 						background: ${theme`colors.grey`};
+						overflow-x: hidden !important;
 					}
 
 					a:focus,
@@ -27,10 +28,6 @@ const Layout = ({ children, styles }) => {
 
 					input {
 						border-radius: 0;
-					}
-
-					html, body{
-						overflow-x: hidden;
 					}
 				`}
 			/>
