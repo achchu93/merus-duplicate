@@ -29,7 +29,7 @@ const Layout = ({ children, styles }) => {
 						border-radius: 0;
 					}
 
-					#gatsby-focus-wrapper{
+					html, body{
 						overflow-x: hidden;
 					}
 				`}
