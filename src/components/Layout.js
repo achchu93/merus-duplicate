@@ -16,8 +16,6 @@ const Layout = ({ children, styles }) => {
 				styles={css`
 					body {
 						background: ${theme`colors.grey`};
-						overflow-x: hidden !important;
-						position: relative;
 					}
 
 					a:focus,
@@ -31,12 +29,11 @@ const Layout = ({ children, styles }) => {
 						border-radius: 0;
 					}
 
-					#___gatsby{
+					#___gatsby {
 						overflow-x: hidden !important;
-						position: relative;
+						position: relative !important;
+						width: 100vw !important;
 					}
-
-
 				`}
 			/>
 
